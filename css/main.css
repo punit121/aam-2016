@@ -1,0 +1,15 @@
+<style media="screen">
+  body {
+    background-color: black;
+  }
+  .verticalLine {
+    border-left: thick solid #ff0000;
+    padding-left: 50px;
+    /*color: white;*/
+    font-size: 80px;
+    font-family: 'Times New Roman';
+  }
+  .logo {
+    margin-top: 20px;
+  }
+</style>
