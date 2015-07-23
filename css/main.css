@@ -32,6 +32,9 @@ body {
 .quotes {
   font-size: 2em;
 }
+.topnav_home {
+  background-image: url('img/home.png');
+}
 .topnav a {
 	padding:12px 18px;
 	color:#f5f5f5;
