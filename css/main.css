@@ -34,7 +34,7 @@ body {
   height: 60px;
 }
 .topnav_home {
-  background-image: url('/img/home.png');
+  background-image: url('../img/home.png');
   background-repeat: no-repeat;
   background-position: 50% 46%;
   color: transparent !important;
