@@ -4,7 +4,7 @@ body {
 }
 #verticalLine {
   border-right: thick solid #ff0000;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
 }
 .logo {
   /*margin-top: 20px;*/
