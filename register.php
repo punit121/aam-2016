@@ -4,8 +4,8 @@ $DB_HOST = "db_host";
 $DB_USER = "db_username";
 $DB_PASS = "db_password";
 
-$email = $_GET["email"];
-$password = $_GET["password"];
+$email = $_POST["email"];
+$password = $_POST["password"];
 $name = $_POST["name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
@@ -61,13 +61,13 @@ echo "$graduatingYear : graduatingYear<br>";
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS);
 
 if ($connection->connect_error) {
-  die("Connecton failed: ".$connecton->connect_error);
+  die("Connecton failed: ".$connection->connect_error);
 }
 else {
   echo "Connection Successful<br>";
 }
 
-$sql = INSERT INTO users (email, name, password) VALUES ($email, $name, $password);
+$sql = "INSERT INTO users (email, name, password) VALUES ($email, $name, $password)";
 
 if ($connection->query($sql) === TRUE) {
   echo "New record created successfully";
