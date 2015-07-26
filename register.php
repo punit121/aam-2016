@@ -1,8 +1,8 @@
 <?php
-$DB_NAME = "db_name";
-$DB_HOST = "db_host";
-$DB_USER = "db_username";
-$DB_PASS = "db_password";
+$DB_NAME = getenv('DB_NAME');
+$DB_HOST = getenv('DB_HOST');
+$DB_USER = getenv('DB_USERNAME');
+$DB_PASS = getenv('DB_PASSWORD');
 
 $email = $_POST["email"];
 $password = $_POST["password"];
