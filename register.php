@@ -31,7 +31,7 @@ $degree = $_POST["degree"];
 $department = $_POST["department"];
 $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
-
+/*
 echo "$email : email<br>";
 echo "$password : password<br>";
 echo "$name : name<br>";
@@ -58,7 +58,7 @@ echo "$degree : degree<br>";
 echo "$department : department<br>";
 echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
-
+*/
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 
 if ($connection->connect_error) {
@@ -71,11 +71,12 @@ else {
 $sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear)
         VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear')";
 
-if ($connection->query($sql) === TRUE) {
-  echo "New record created successfully";
+if ($connection->query($sql)) {
+  $connection->close();
+  header('Location: ./registration-complete.html');
+  exit;
 } else {
   echo "Error: ".$sql. "<br>".$connection->error;
 }
 
-$connection->close();
  ?>

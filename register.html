@@ -1,148 +1,187 @@
-<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-<div class="container">
-  <form action="register.php" method="post">
-    <h2>Section 1: Personal Details <label class="label label-danger">Required</label></h2>
-    <div class="form-group">
-      <label for="Name">Name</label>
-      <input class="form-control" type="text" placeholder="Your Name" name="name" id="name">
-    </div>
-    <div class="form-group">
-      <label for="Name">Email Id</label>
-      <input class="form-control" type="email" placeholder="Email" name="email" id="email">
-    </div>
-    <div class="form-group">
-      <label for="Name">Password</label>
-      <input class="form-control" type="password" placeholder="Password" name="password">
-    </div>
-    <div class="form-group">
-      <label for="Name">Address</label>
-      <input class="form-control" type="text" placeholder="Address" name="address">
-    </div>
-    <div class="form-group">
-      <label for="Name">City</label>
-      <input class="form-control" type="text" placeholder="City" name="city">
-    </div>
-    <div class="form-group">
-      <label for="Name">State</label>
-      <input class="form-control" type="text" placeholder="State" name="state">
-    </div>
-    <div class="form-group">
-      <label for="Name">Country</label>
-      <input class="form-control" type="text" placeholder="Country" name="country">
-    </div>
-    <div class="form-group">
-      <label for="Name">Zip Code</label>
-      <input class="form-control" type="number" placeholder="Zip Code" name="zipCode">
-    </div>
-    <div class="form-group">
-      <label for="Name">Mobile</label>
-      <input class="form-control" type="number" placeholder="Mobile" name="mobile">
-    </div>
-    <div class="form-group">
-      <label for="Name">Date of Birth</label>
-      <input class="form-control" type="datetime" placeholder="Date of Birth" name="dob">
-    </div>
-    <div class="form-group">
-      <label for="Name">Marital Status</label>
-      <input class="form-control" type="text" placeholder="Marital Status" name="marital">
-    </div>
-    <hr>
-    <h2>Section 2: Where do you work?</h2>
-    <div class="form-group">
-      <label for="Name">Industry</label>
-      <input class="form-control" type="text" placeholder="Industry" name="industry">
-    </div>
-    <div class="form-group">
-      <label for="Name">Profession</label>
-      <input class="form-control" type="text" placeholder="Profession" name="profession">
-    </div>
-    <div class="form-group">
-      <label for="Name">Organisation Name</label>
-      <input class="form-control" type="text" placeholder="Organisation Name" name="orgName">
-    </div>
-    <div class="form-group">
-      <label for="Name">Designation</label>
-      <input class="form-control" type="text" placeholder="Designation" name="designation">
-    </div>
-    <div class="form-group">
-      <label for="Name">City</label>
-      <input class="form-control" type="text" placeholder="City" name="work_city">
-    </div>
-    <div class="form-group">
-      <label for="Name">State</label>
-      <input class="form-control" type="text" placeholder="State" name="work_state">
-    </div>
-    <div class="form-group">
-      <label for="Name">Country</label>
-      <input class="form-control" type="text" placeholder="Country" name="work_country">
-    </div>
-    <div class="form-group">
-      <label for="Name">Zip Code</label>
-      <input class="form-control" type="number" placeholder="Zip Code" name="work_zipCode">
-    </div>
-    <div class="form-group">
-      <label for="Name">Address</label>
-      <input class="form-control" type="text" placeholder="Address" name="work_address">
-    </div>
-    <hr>
-    <h2>Section 3: Nostalgic Section</h2>
-    <div class="form-group">
-      <label for="Name">Roll Number</label>
-      <input class="form-control" type="number" placeholder="Roll Number" name="rollNum">
-    </div>
-    <div class="form-group">
-      <label for="Name">Join Year</label>
-      <input class="form-control" type="number" placeholder="Join Year" name="joinYear">
-    </div>
-    <div class="form-group">
-      <label for="Name">Degree</label>
-      <input class="form-control" type="text" placeholder="Degree" name="degree">
-    </div>
-    <div class="form-group">
-      <label for="Name">Department</label>
-      <input class="form-control" type="text" placeholder="Department" name="department">
-    </div>
-    <div class="form-group">
-      <label for="Name">Hall</label>
-      <input class="form-control" type="text" placeholder="Hall" name="hall">
-    </div>
-    <div class="form-group">
-      <label for="Name">Year of Graduating</label>
-      <input class="form-control" type="number" placeholder="Year of Graduating" name="graduatingYear">
-    </div>
-    <button type="submit" class="btn btn-success btn-lg btn-block" name="button">SUBMIT</button>
-  </form>
-</div>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript">
-function parseURLParams(url) {
-  var queryStart = url.indexOf("?") + 1,
-      queryEnd   = url.indexOf("#") + 1 || url.length + 1,
-      query = url.slice(queryStart, queryEnd - 1),
-      pairs = query.replace(/\+/g, " ").split("&"),
-      parms = {}, i, n, v, nv;
+<html>
+<head>
+  <title>13th Annual Alumni Meet &middot; Register now</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/logo-square.png" media="screen">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/main.css" media="screen">
+</head>
 
-  if (query === url || query === "") {
-      return;
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="sr-only"></span>
+          <span class="sr-only"></span>
+          <span class="sr-only"></span>
+        </button>
+        <a href="./index.html" class="navbar-brand">
+          <img src="img/home.png" alt="" />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-example">
+        <ul class="nav navbar-nav">
+          <li><a href="./sac.html">STUDENTS' ALUMNI CELL</a></li>
+          <!-- <li><a href="gallery.html">GALLERY</a></li> -->
+          <li><a href="./sponsor.html">SPONSORS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- <li><a href="#">HELP</a></li> -->
+          <li><a href="./contact.html">CONTACT US</a></li>
+          <li><a href="./login.html">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <div class="container">
+    <form action="register.php" method="post">
+      <h2>Section 1: Personal Details <label class="label label-danger">Required</label></h2>
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input class="form-control" type="text" placeholder="Your Name" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="Name">Email Id</label>
+        <input class="form-control" type="email" placeholder="Email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="Name">Password</label>
+        <input class="form-control" type="password" placeholder="Password" name="password">
+      </div>
+      <div class="form-group">
+        <label for="Name">Address</label>
+        <input class="form-control" type="text" placeholder="Address" name="address">
+      </div>
+      <div class="form-group">
+        <label for="Name">City</label>
+        <input class="form-control" type="text" placeholder="City" name="city">
+      </div>
+      <div class="form-group">
+        <label for="Name">State</label>
+        <input class="form-control" type="text" placeholder="State" name="state">
+      </div>
+      <div class="form-group">
+        <label for="Name">Country</label>
+        <input class="form-control" type="text" placeholder="Country" name="country">
+      </div>
+      <div class="form-group">
+        <label for="Name">Zip Code</label>
+        <input class="form-control" type="number" placeholder="Zip Code" name="zipCode">
+      </div>
+      <div class="form-group">
+        <label for="Name">Mobile</label>
+        <input class="form-control" type="number" placeholder="Mobile" name="mobile">
+      </div>
+      <div class="form-group">
+        <label for="Name">Date of Birth</label>
+        <input class="form-control" type="datetime" placeholder="Date of Birth" name="dob">
+      </div>
+      <div class="form-group">
+        <label for="Name">Marital Status</label>
+        <input class="form-control" type="text" placeholder="Marital Status" name="marital">
+      </div>
+      <hr>
+      <h2>Section 2: Where do you work?</h2>
+      <div class="form-group">
+        <label for="Name">Industry</label>
+        <input class="form-control" type="text" placeholder="Industry" name="industry">
+      </div>
+      <div class="form-group">
+        <label for="Name">Profession</label>
+        <input class="form-control" type="text" placeholder="Profession" name="profession">
+      </div>
+      <div class="form-group">
+        <label for="Name">Organisation Name</label>
+        <input class="form-control" type="text" placeholder="Organisation Name" name="orgName">
+      </div>
+      <div class="form-group">
+        <label for="Name">Designation</label>
+        <input class="form-control" type="text" placeholder="Designation" name="designation">
+      </div>
+      <div class="form-group">
+        <label for="Name">City</label>
+        <input class="form-control" type="text" placeholder="City" name="work_city">
+      </div>
+      <div class="form-group">
+        <label for="Name">State</label>
+        <input class="form-control" type="text" placeholder="State" name="work_state">
+      </div>
+      <div class="form-group">
+        <label for="Name">Country</label>
+        <input class="form-control" type="text" placeholder="Country" name="work_country">
+      </div>
+      <div class="form-group">
+        <label for="Name">Zip Code</label>
+        <input class="form-control" type="number" placeholder="Zip Code" name="work_zipCode">
+      </div>
+      <div class="form-group">
+        <label for="Name">Address</label>
+        <input class="form-control" type="text" placeholder="Address" name="work_address">
+      </div>
+      <hr>
+      <h2>Section 3: Nostalgic Section</h2>
+      <div class="form-group">
+        <label for="Name">Roll Number</label>
+        <input class="form-control" type="number" placeholder="Roll Number" name="rollNum">
+      </div>
+      <div class="form-group">
+        <label for="Name">Join Year</label>
+        <input class="form-control" type="number" placeholder="Join Year" name="joinYear">
+      </div>
+      <div class="form-group">
+        <label for="Name">Degree</label>
+        <input class="form-control" type="text" placeholder="Degree" name="degree">
+      </div>
+      <div class="form-group">
+        <label for="Name">Department</label>
+        <input class="form-control" type="text" placeholder="Department" name="department">
+      </div>
+      <div class="form-group">
+        <label for="Name">Hall</label>
+        <input class="form-control" type="text" placeholder="Hall" name="hall">
+      </div>
+      <div class="form-group">
+        <label for="Name">Year of Graduating</label>
+        <input class="form-control" type="number" placeholder="Year of Graduating" name="graduatingYear">
+      </div>
+      <button type="submit" class="btn btn-success btn-lg btn-block" name="button">SUBMIT</button>
+    </form>
+  </div>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+  function parseURLParams(url) {
+    var queryStart = url.indexOf("?") + 1,
+        queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+        query = url.slice(queryStart, queryEnd - 1),
+        pairs = query.replace(/\+/g, " ").split("&"),
+        parms = {}, i, n, v, nv;
+
+    if (query === url || query === "") {
+        return;
+    }
+
+    for (i = 0; i < pairs.length; i++) {
+        nv = pairs[i].split("=");
+        n = decodeURIComponent(nv[0]);
+        v = decodeURIComponent(nv[1]);
+
+        if (!parms.hasOwnProperty(n)) {
+            parms[n] = [];
+        }
+
+        parms[n].push(nv.length === 2 ? v : null);
+    }
+    return parms;
   }
-
-  for (i = 0; i < pairs.length; i++) {
-      nv = pairs[i].split("=");
-      n = decodeURIComponent(nv[0]);
-      v = decodeURIComponent(nv[1]);
-
-      if (!parms.hasOwnProperty(n)) {
-          parms[n] = [];
-      }
-
-      parms[n].push(nv.length === 2 ? v : null);
-  }
-  return parms;
-}
-var url = window.location.href;
-var result = parseURLParams(url);
-$(document).ready(function() {
-  document.getElementById('name').value = result.name;
-  document.getElementById('email').value = result.email;
-});
-</script>
+  var url = window.location.href;
+  var result = parseURLParams(url);
+  $(document).ready(function() {
+    document.getElementById('name').value = result.name;
+    document.getElementById('email').value = result.email;
+  });
+  </script>
+</body>
+</html>
