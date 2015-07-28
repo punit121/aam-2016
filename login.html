@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/main.css" media="screen">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="sr-only"></span>
+          <span class="sr-only"></span>
+          <span class="sr-only"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/home.png" alt="" />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-example">
+        <ul class="nav navbar-nav">
+          <li><a href="sac.html">STUDENT ALUMNI CELL</a></li>
+          <!-- <li><a href="gallery.html">GALLERY</a></li> -->
+          <li><a href="sponsor.html">SPONSORS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">HELP</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li class="active"><a href="login.html">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h2 align="center">Login</h2>
+    <form action="login.php" method="post">
+      <div class="form-group">
+        <label for="Email Id">Email Id</label>
+        <input class="form-control" type="email" name="email" value="" placeholder="Email Id">
+      </div>
+      <div class="form-group">
+        <label for="Password">Password</label>
+        <input class="form-control" type="password" name="password" value="" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-success btn-lg btn-block" name="button">LOGIN</button>
+    </form>
+  </div>
+</body>
+</html>

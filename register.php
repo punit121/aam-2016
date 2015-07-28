@@ -6,6 +6,7 @@ $DB_PASS = getenv('DB_PASSWORD');
 
 $email = $_POST["email"];
 $password = $_POST["password"];
+$password = hash('sha256',$password);
 $name = $_POST["name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
@@ -58,25 +59,23 @@ echo "$department : department<br>";
 echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 
-phpinfo(INFO_ENVIRONMENT);
-
-$connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-
-if ($connection->connect_error) {
-  die("Connecton failed: ".$connection->connect_error);
-}
-else {
-  echo "Connection Successful<br>";
-}
-
-$sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear)
-        VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear')";
-
-if ($connection->query($sql) === TRUE) {
-  echo "New record created successfully";
-} else {
-  echo "Error: ".$sql. "<br>".$connection->error;
-}
-
-$connection->close();
+// $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+//
+// if ($connection->connect_error) {
+//   die("Connecton failed: ".$connection->connect_error);
+// }
+// else {
+//   echo "Connection Successful<br>";
+// }
+//
+// $sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear)
+//         VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear')";
+//
+// if ($connection->query($sql) === TRUE) {
+//   echo "New record created successfully";
+// } else {
+//   echo "Error: ".$sql. "<br>".$connection->error;
+// }
+//
+// $connection->close();
  ?>
