@@ -58,7 +58,7 @@ body {
   transition: all 0.5s ease-out;
 }
 .panel-body:hover {
-  background-color: black;
+  background-color: rgb(37, 55, 55);
   color: white;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
