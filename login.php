@@ -5,12 +5,12 @@ $DB_USER = getenv('DB_USERNAME');
 $DB_PASS = getenv('DB_PASSWORD');
 
 $email = $_POST["email"];
-echo "Email id $email <br>";
 $password = $_POST["password"];
-echo "Unhashed password: $password <br>";
 $password = hash('sha256',$password);
+/*
+echo "Email id $email <br>";
 echo "Password after hash: $password <br>";
-
+*/
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 
 if ($connection->connect_error) {
@@ -28,12 +28,15 @@ if ($result->num_rows > 0) {
     // echo "email: " . $row["email"]. " - password: " . $row["password"]."<br>";
     if ($email == $row["email"]) {
       if ($password == $row["password"]) {
-        echo "Successfully logged in <br>";
+        $connection->close();
+        header('Location: ./login-complete.html');
+        exit;
       }
     }
   }
 } else {
-  echo "0 results found";
+  $connection->close();
+  header('Location: ./login.html');
+  exit;
 }
-$connection->close();
 ?>
