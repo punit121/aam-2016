@@ -26,7 +26,6 @@
           </div>
           <div class="col-md-6">
             <a href="./index.php" class="btn btn-success btn-block">Visit Home</a>
-
           </div>
         </div>
       </div>
