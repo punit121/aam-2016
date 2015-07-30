@@ -77,7 +77,7 @@ $_SESSION["email"] = $email;
 
 if ($connection->query($sql)) {
   $connection->close();
-  header('Location: ./registration-complete.html');
+  header('Location: ./registration-complete.php');
   exit;
 } else {
   echo "Error: ".$sql. "<br>".$connection->error;
