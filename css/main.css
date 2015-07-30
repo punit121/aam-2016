@@ -10,6 +10,9 @@ body {
   margin-top: 20%;
   padding-bottom: 20%;
 }
+.sac {
+  font-size: 18px;
+}
 #form {
   /*border-left: thick solid #ff0000;*/
   /*margin-top: 5%;*/
