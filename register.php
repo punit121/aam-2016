@@ -1,4 +1,5 @@
 <?php
+session_start();
 $DB_NAME = getenv('DB_NAME');
 $DB_HOST = getenv('DB_HOST');
 $DB_USER = getenv('DB_USERNAME');
@@ -71,6 +72,8 @@ else {
 
 $sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
         VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
+
+$_SESSION["email"] = $email;
 
 if ($connection->query($sql)) {
   $connection->close();
