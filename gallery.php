@@ -16,7 +16,7 @@
   <?php include "navbar.php"; ?>
   <div class="container">
     <div class="jumbotron">
-      <form class="form-inline">
+      <!-- <form class="form-inline">
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-success btn-lg">
             <i class="glyphicon glyphicon-leaf"></i>
@@ -27,7 +27,7 @@
             <input id="fullscreen-checkbox" type="checkbox">Fullscreen
           </label>
         </div>
-      </form>
+      </form> -->
       <br>
 
       <div id="links">
