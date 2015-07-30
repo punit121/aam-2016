@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <title>13th Annual Alumni Meet &middot; Register now</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +40,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <div class="container">
     <form action="register.php" method="post">
-      <h2>Section 1: Personal Details <label class="label label-danger">Required</label></h2>
+      <h2>Section 1: Personal Details
+        <label class="label label-danger">Required</label>
+      </h2>
       <div class="form-group">
         <label for="Name">Name</label>
         <input class="form-control" type="text" placeholder="Your Name" name="name" id="name">
@@ -153,36 +156,38 @@
   </div>
   <script src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript">
-  function parseURLParams(url) {
-    var queryStart = url.indexOf("?") + 1,
-        queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+    function parseURLParams(url) {
+      var queryStart = url.indexOf("?") + 1,
+        queryEnd = url.indexOf("#") + 1 || url.length + 1,
         query = url.slice(queryStart, queryEnd - 1),
         pairs = query.replace(/\+/g, " ").split("&"),
-        parms = {}, i, n, v, nv;
+        parms = {},
+        i, n, v, nv;
 
-    if (query === url || query === "") {
+      if (query === url || query === "") {
         return;
-    }
+      }
 
-    for (i = 0; i < pairs.length; i++) {
+      for (i = 0; i < pairs.length; i++) {
         nv = pairs[i].split("=");
         n = decodeURIComponent(nv[0]);
         v = decodeURIComponent(nv[1]);
 
         if (!parms.hasOwnProperty(n)) {
-            parms[n] = [];
+          parms[n] = [];
         }
 
         parms[n].push(nv.length === 2 ? v : null);
+      }
+      return parms;
     }
-    return parms;
-  }
-  var url = window.location.href;
-  var result = parseURLParams(url);
-  $(document).ready(function() {
-    document.getElementById('name').value = result.name;
-    document.getElementById('email').value = result.email;
-  });
+    var url = window.location.href;
+    var result = parseURLParams(url);
+    $(document).ready(function() {
+      document.getElementById('name').value = result.name;
+      document.getElementById('email').value = result.email;
+    });
   </script>
 </body>
+
 </html>

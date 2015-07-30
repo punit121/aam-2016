@@ -1,4 +1,3 @@
-
 body {
   /*background-color: black;*/
   /*font-family: 'exomedium';*/
@@ -43,18 +42,19 @@ body {
   width: 50px;
 }
 .topnav a {
-	padding:12px 18px;
-	color:#f5f5f5;
+  padding: 12px 18px;
+  color: #f5f5f5;
 }
 .topnav a:hover, .topnav a:active, .topnav a:focus {
-	background-color:#000000 !important;
-	text-decoration:none;
-	/*color:#ffffff !important;*/
+  background-color: #000000 !important;
+  text-decoration: none;
+  /*color:#ffffff !important;*/
 }
 #payment {
   margin-top: 50px;
   display: none;
 }
+
 /*
 .panel-body {
   -webkit-transition: all 0.5s ease-out;
@@ -72,17 +72,14 @@ body {
   transition: all 0.5s ease-out;
 }
 */
-@font-face {
-	font-family: 'exomedium';
-	src: url('../fonts/exo-medium-webfont.eot');
-	src: url('../fonts/exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/exo-medium-webfont.woff') format('woff'),
-	url('../fonts/exo-medium-webfont.ttf') format('truetype'),
-	url('../fonts/exo-medium-webfont.svg#exomedium') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
+@font-face {
+  font-family: 'exomedium';
+  src: url('../fonts/exo-medium-webfont.eot');
+  src: url('../fonts/exo-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/exo-medium-webfont.woff') format('woff'), url('../fonts/exo-medium-webfont.ttf') format('truetype'), url('../fonts/exo-medium-webfont.svg#exomedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
-	font-family: 'exomedium';
+  font-family: 'exomedium';
 }
