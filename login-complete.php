@@ -21,14 +21,14 @@
           <p>
             We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
           </p>
-          <div class="">
+          <!-- <div class="">
             <div class="col-md-6">
               <button class="btn btn-primary btn-block btn-lg" type="button" name="payment" onclick="payment()">Payment Details</button>
             </div>
             <div class="col-md-6">
               <button class="btn btn-primary btn-block btn-lg" type="button" name="travel">Travel & Accomodation Details</button>
             </div>
-          </div>
+          </div> -->
           <div class="container" id="payment">
             <div class="panel panel-default">
               <div class="panel-heading">
