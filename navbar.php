@@ -8,7 +8,8 @@
         <span class="sr-only"></span>
       </button>
       <a href="./index.php" class="navbar-brand">
-        <img src="img/home.png" alt="" />
+        <!-- <img src="img/home.png" alt="" /> -->
+        <i class="fa fa-home"></i>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar-example">
