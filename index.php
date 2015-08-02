@@ -3,7 +3,7 @@
 
 <head>
   <title>13th Annual Alumni Meet &middot; Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php include 'metaTag.php'; ?>
   <link rel="icon" href="img/logo-square.png" media="screen">
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="css/main.css" media="screen">
@@ -20,7 +20,7 @@
 
     <div class="col-md-6">
       <div class="form-group" id="form">
-        <form action="register.php" method="get">
+        <form action="signup.php" method="get">
           <div class="form-group">
             <input class="form-control" type="text" name="name" value="" placeholder="Your Name">
           </div>

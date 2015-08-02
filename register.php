@@ -80,7 +80,7 @@ if ($connection->query($sql)) {
   header('Location: ./registration-complete.php');
   exit;
 } else {
-  echo "Error: ".$sql. "<br>".$connection->error;
+  echo "Error: ".$connection->error;
 }
 
  ?>
