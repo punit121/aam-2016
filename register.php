@@ -1,10 +1,5 @@
 <?php
 session_start();
-$DB_NAME = getenv('DB_NAME');
-$DB_HOST = getenv('DB_HOST');
-$DB_USER = getenv('DB_USERNAME');
-$DB_PASS = getenv('DB_PASSWORD');
-
 $email = $_POST["email"];
 $password = $_POST["password"];
 $password = hash('sha256',$password);
@@ -61,14 +56,7 @@ echo "$department : department<br>";
 echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
-$connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-
-if ($connection->connect_error) {
-  die("Connecton failed: ".$connection->connect_error);
-}
-else {
-  echo "Connection Successful<br>";
-}
+include 'connection.php';
 
 $sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
         VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
