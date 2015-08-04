@@ -31,6 +31,7 @@ $degree = $_POST["degree"];
 $department = $_POST["department"];
 $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
+$accompanyingNo = $_POST["accompanyingNo"];
 /*
 echo "$email : email<br>";
 echo "$password : password<br>";
@@ -68,8 +69,8 @@ else {
   echo "Connection Successful<br>";
 }
 
-$sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear)
-        VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear')";
+$sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
+        VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
 
 if ($connection->query($sql)) {
   $connection->close();
