@@ -1,4 +1,9 @@
 <?php
+session_start();
+if ($_SESSION["email"] != "") {
+  header('Location: ./login-complete.php');
+  exit();
+}
 $DB_NAME = getenv('DB_NAME');
 $DB_HOST = getenv('DB_HOST');
 $DB_USER = getenv('DB_USERNAME');
@@ -28,15 +33,16 @@ if ($result->num_rows > 0) {
     // echo "email: " . $row["email"]. " - password: " . $row["password"]."<br>";
     if ($email == $row["email"]) {
       if ($password == $row["password"]) {
+        $_SESSION["email"] = $email;
         $connection->close();
-        header('Location: ./login-complete.html');
+        header('Location: ./login-complete.php');
         exit;
       }
     }
   }
 } else {
   $connection->close();
-  header('Location: ./login.html');
+  header('Location: ./login.php');
   exit;
 }
 ?>
