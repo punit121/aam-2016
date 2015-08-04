@@ -13,7 +13,7 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 $password = hash('sha256',$password);
 /*
-echo "Email id $email <br>";
+echo "Email ID $email <br>";
 echo "Password after hash: $password <br>";
 */
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);

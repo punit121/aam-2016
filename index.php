@@ -26,7 +26,7 @@
             <input class="form-control" type="text" name="name" value="" placeholder="Your Name">
           </div>
           <div class="form-group">
-            <input class="form-control" type="email" name="email" value="" placeholder="Email Id">
+            <input class="form-control" type="email" name="email" value="" placeholder="Email ID">
           </div>
           <button type="submit" name="button" class="btn btn-success btn-block">REGISTER NOW</button>
         </form>
