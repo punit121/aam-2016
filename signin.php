@@ -15,8 +15,8 @@
     <h2 align="center">Login</h2>
     <form action="login.php" method="post">
       <div class="form-group">
-        <label for="Email Id">Email Id</label>
-        <input class="form-control" type="email" name="email" value="" placeholder="Email Id">
+        <label for="Email ID">Email ID</label>
+        <input class="form-control" type="email" name="email" value="" placeholder="Email ID">
       </div>
       <div class="form-group">
         <label for="Password">Password</label>

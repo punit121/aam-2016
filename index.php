@@ -4,6 +4,7 @@
 <head>
   <title>13th Annual Alumni Meet &middot; Home</title>
   <?php include 'metaTag.php'; ?>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="icon" href="img/logo-square.png" media="screen">
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="css/main.css" media="screen">
@@ -25,7 +26,7 @@
             <input class="form-control" type="text" name="name" value="" placeholder="Your Name">
           </div>
           <div class="form-group">
-            <input class="form-control" type="email" name="email" value="" placeholder="Email Id">
+            <input class="form-control" type="email" name="email" value="" placeholder="Email ID">
           </div>
           <button type="submit" name="button" class="btn btn-success btn-block">REGISTER NOW</button>
         </form>

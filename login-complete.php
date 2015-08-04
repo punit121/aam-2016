@@ -1,4 +1,11 @@
-<?php session_start(); ?>
+<?php
+ session_start();
+ if ($_SESSION["email"] != "") {
+   header('Location: ./signin.php');
+   exit();
+ }
+ ?>
+
 <html>
 
 <head>
