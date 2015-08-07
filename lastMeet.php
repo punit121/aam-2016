@@ -4,10 +4,17 @@
 <head>
   <title>13th Annual Alumni Meet &middot; Home</title>
   <?php include 'topHead.php'; ?>
+  <style media="screen">
+    img {
+      max-width: 100%;
+    }
+  </style>
 </head>
 
 <body>
   <?php include "navbar.php"; ?>
-  <img src="img/meet.jpg" alt="" width="100%" />
+  <div class="container-fluid text-center">
+    <img src="img/meet.jpg" />
+  </div>
 </body>
 </head>
