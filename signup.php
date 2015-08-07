@@ -170,6 +170,8 @@
       $("input").each(function () {
         if (EXCLUDED_FIELDS.indexOf($(this).attr('name')) < 0) {
           $(this).attr('required', 'required');
+          var labelElement = $(this).parent('div').children('label').first();
+          labelElement.html(labelElement.html() + ' *');
         }
       });
     });
