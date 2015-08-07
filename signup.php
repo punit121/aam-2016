@@ -164,14 +164,12 @@
     $(document).ready(function() {
       $("#name").val(result.name);
       $("#email").val(result.email);
-      $("input").focus(function() {
-        $(this).css("background-color", "#cccccc");
-      });
-      $("input").blur(function() {
-        var x = $(this).val();
-        if (x == null || x == "") {
-          $(this).after("<p>* This field is Required</p>");
-          $(this).css("background-color", "#f00000");
+      var EXCLUDED_FIELDS = ['industry', 'profession', 'work_state' ,'work_city',
+                              'work_country', 'work_zipCode', 'work_address',
+                              'rollNum', 'joinYear', 'accompanyingNo'];
+      $("input").each(function () {
+        if (EXCLUDED_FIELDS.indexOf($(this).attr('name')) < 0) {
+          $(this).attr('required', 'required');
         }
       });
     });
