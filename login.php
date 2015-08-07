@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
   }
 } else {
   $connection->close();
-  header('Location: ./login.php');
+  header('Location: ./signin.php?alert=Bad%20password.%20Try%20Again.');
   exit;
 }
 ?>
