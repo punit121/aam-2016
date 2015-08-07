@@ -164,6 +164,16 @@
     $(document).ready(function() {
       document.getElementById('name').value = result.name;
       document.getElementById('email').value = result.email;
+      $("input").focus(function() {
+        $(this).css("background-color", "#cccccc");
+      });
+      $("input").blur(function() {
+        var x = $(this).val();
+        if (x == null || x == "") {
+          $(this).after("<p>* This field is Required</p>");
+          $(this).css("background-color", "#f00000");
+        }
+      });
     });
   </script>
 </body>
