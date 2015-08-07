@@ -162,8 +162,8 @@
     var url = window.location.href;
     var result = parseURLParams(url);
     $(document).ready(function() {
-      document.getElementById('name').value = result.name;
-      document.getElementById('email').value = result.email;
+      $("#name").val(result.name);
+      $("#email").val(result.email);
       $("input").focus(function() {
         $(this).css("background-color", "#cccccc");
       });
