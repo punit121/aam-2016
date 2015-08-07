@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example">
+        <i class="fa fa-bars" style="color: white;"></i>
         <span class="sr-only">Toggle Navigation</span>
         <span class="sr-only"></span>
         <span class="sr-only"></span>
@@ -34,3 +35,6 @@
     </div>
   </div>
 </nav>
+
+<script src="js/jquery-1.11.1.min.js" async></script>
+<script src="js/bootstrap.min.js" async></script>
