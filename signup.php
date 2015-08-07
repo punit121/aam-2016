@@ -3,7 +3,7 @@
 
 <head>
   <title>13th Annual Alumni Meet &middot; Register now</title>
-  <?php include 'metaTag.php'; ?>
+  <?php include 'topHead.php'; ?>
   <link rel="icon" href="img/logo-square.png" media="screen">
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="css/main.css" media="screen">

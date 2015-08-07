@@ -3,10 +3,7 @@
 
 <head>
   <title>13th Annual Alumni Meet &middot; Gallery</title>
-  <?php include 'metaTag.php'; ?>
-  <link rel="icon" href="img/logo-square.png" media="screen">
-  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
-  <link rel="stylesheet" href="css/main.css" media="screen">
+  <?php include 'topHead.php'; ?>
   <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
   <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
   <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> -->
