@@ -2,9 +2,10 @@ body {
   /*background-color: black;*/
   /*font-family: 'exomedium';*/
 }
-#verticalLine {
-  border-right: thick solid #ff0000;
-  /*margin-right: 10%;*/
+@media (min-width: 768px) {
+  #verticalLine {
+    border-right: thick solid #ff0000;
+  }
 }
 .logo {
   margin-top: 20%;
