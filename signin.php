@@ -10,6 +10,7 @@
   <?php include "navbar.php"; ?>
   <div class="container">
     <h2 align="center">Login</h2>
+<<<<<<< HEAD
     <?php
     if (isset($_GET["err"])) {
       $err = $_GET["err"];
@@ -18,10 +19,10 @@
       echo "<span aria-hidden='true'>&times;</span>";
       echo "</button>";
       if ($err == "email") {
-        echo "Email ID not registed";
+        echo "Email Id not registed";
       }
       if ($err == "pass") {
-        echo "Email ID OR Password didn't match";
+        echo "Email Id OR Password didn't match";
       } else {
         echo "";
       }
