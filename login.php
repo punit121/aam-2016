@@ -25,12 +25,16 @@ if ($result->num_rows > 0) {
         $connection->close();
         header('Location: ./login-complete.php');
         exit;
+      } else {
+        header('Location: ./signin.php?err=pass');
       }
+    } else {
+      header('Location: ./signin.php?err=email');
     }
   }
 } else {
   $connection->close();
-  header('Location: ./signin.php?alert=Bad%20password.%20Try%20Again.');
+  header('Location: ./signin.php?err=');
   exit;
 }
 ?>
