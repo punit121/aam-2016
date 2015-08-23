@@ -69,7 +69,7 @@
 		<a href="http://www.npcil.nic.in" target="_blank">
       <img class="spons" src="img/spons/2015/e7.png" width="200px" height="" />
     </a>
-
+    <br>
     <a href="http://www.irel.gov.in" target="_blank">
       <img class="spons" src="img/spons/2015/e3.png" width="200px" height="" />
     </a>
