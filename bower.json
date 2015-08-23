@@ -1,0 +1,24 @@
+{
+  "name": "aam-2016",
+  "version": "1.0.0",
+  "homepage": "https://www.alumnimeet.iitkgp.ernet.in/",
+  "authors": [
+    "Siddharth Kannan <kannan.siddharth12@gmail.com>"
+  ],
+  "description": "Website of the 13th Annual Alumni Meet",
+  "main": "index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "components-font-awesome": "~4.4.0"
+  }
+}
