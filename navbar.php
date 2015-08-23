@@ -18,7 +18,15 @@
         <li><a href="./sac.php">STUDENTS' ALUMNI CELL</a></li>
         <li><a href="./gallery.php">GALLERY</a></li>
         <li><a href="./lastMeet.php">LAST MEET</a></li>
-        <li><a href="./sponsor.php">SPONSORS</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsors <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./sponsors2012.php">2012</a></li>
+            <li><a href="./sponsors2013.php">2013</a></li>
+            <li><a href="./sponsors2014.php">2014</a></li>
+            <li><a href="./sponsors2015.php">2015</a></li>
+          </ul>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#">HELP</a></li> -->
@@ -36,5 +44,5 @@
   </div>
 </nav>
 
-<script src="js/jquery-1.11.1.min.js" async></script>
-<script src="js/bootstrap.min.js" async></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

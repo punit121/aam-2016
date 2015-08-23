@@ -143,7 +143,6 @@
       <button type="submit" class="btn btn-success btn-lg btn-block" name="button">SUBMIT</button>
     </form>
   </div>
-  <script src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript">
     function parseURLParams(url) {
       var queryStart = url.indexOf("?") + 1,
