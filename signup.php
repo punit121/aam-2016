@@ -62,7 +62,7 @@
       </div>
       <div class="form-group">
         <label for="Name">Mobile</label>
-        <input class="form-control" type="number" placeholder="Mobile" name="mobile">
+        <input class="form-control" type="text" placeholder="Mobile" name="mobile">
       </div>
       <div class="form-group">
         <label for="Name">Date of Birth</label>
