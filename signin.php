@@ -10,7 +10,6 @@
   <?php include "navbar.php"; ?>
   <div class="container">
     <h2 align="center">Login</h2>
-<<<<<<< HEAD
     <?php
     if (isset($_GET["err"])) {
       $err = $_GET["err"];

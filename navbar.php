@@ -53,7 +53,7 @@ li a.drop-li
           echo "<li><a href='./index.php'>Logged in as ".$_SESSION['email']."</a></li>";
           echo "<li><a href='./logout.php'>LOGOUT</a></li>";
         } else {
-          echo "<li><a href='./signin.php?err='>LOGIN</a></li>";
+          echo "<li><a href='./signin.php'>LOGIN</a></li>";
         }
         ?>
       </ul>
