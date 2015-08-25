@@ -18,10 +18,10 @@
       echo "<span aria-hidden='true'>&times;</span>";
       echo "</button>";
       if ($err == "email") {
-        echo "Email Id not registed";
+        echo "Email ID not registed";
       }
       if ($err == "pass") {
-        echo "Email Id OR Password didn't match";
+        echo "Email ID OR Password didn't match";
       } else {
         echo "";
       }
