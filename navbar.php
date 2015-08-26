@@ -31,6 +31,7 @@
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#">HELP</a></li> -->
         <li><a href="./contact.php">CONTACT US</a></li>
+				<li><a href="./signup.php">REGISTER</a></li>
         <?php
         if ($_SESSION["email"] != "") {
           echo "<li><a href='./index.php'>Logged in as ".$_SESSION['email']."</a></li>";
