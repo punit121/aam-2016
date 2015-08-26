@@ -1,3 +1,19 @@
+<head>
+<style>
+li a.drop-li:hover
+{
+	background-color:black;
+	color:white;
+}
+li a.drop-li
+{
+	color:white;
+}
+
+
+</style>
+</head>
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -19,12 +35,12 @@
         <li><a href="./gallery.php">GALLERY</a></li>
         <li><a href="./lastMeet.php">LAST MEET</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsors <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="./sponsors2012.php">2012</a></li>
-            <li><a href="./sponsors2013.php">2013</a></li>
-            <li><a href="./sponsors2014.php">2014</a></li>
-            <li><a href="./sponsors2015.php">2015</a></li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPONSORS <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:#222 ; ">
+            <li><a href="./sponsors2012.php" class="drop-li">2012</a></li>
+            <li><a href="./sponsors2013.php" class="drop-li">2013</a></li>
+            <li><a href="./sponsors2014.php" class="drop-li">2014</a></li>
+            <li><a href="./sponsors2015.php" class="drop-li">2015</a></li>
           </ul>
         </li>
       </ul>
