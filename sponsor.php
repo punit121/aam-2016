@@ -10,7 +10,7 @@
   <?php include "navbar.php"; ?>
   <div class="container-fluid" align="center">
     <h1> Sponsors 2015 </h1>
-    <h2> Co Sponsors </h2>
+    <h2> Co Sponsor </h2>
     <a href="http://www.ulaindia.com" target="_blank">
       <img class="spons" src="img/spons2015/cosponsor.png" width="600px" height="" />
     </a>
