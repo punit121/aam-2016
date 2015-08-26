@@ -37,10 +37,10 @@ li a.drop-li
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPONSORS <span class="caret"></span></a>
           <ul class="dropdown-menu" style="background-color:#222 ; ">
-            <li><a href="./sponsors2012.php" class="drop-li" >2012</a></li>
-            <li><a href="./sponsors2013.php" class="drop-li" >2013</a></li>
-            <li><a href="./sponsors2014.php" class="drop-li" >2014</a></li>
-            <li><a href="./sponsors2015.php" class="drop-li" >2015</a></li>
+            <li><a href="./sponsors2012.php" class="drop-li">2012</a></li>
+            <li><a href="./sponsors2013.php" class="drop-li">2013</a></li>
+            <li><a href="./sponsors2014.php" class="drop-li">2014</a></li>
+            <li><a href="./sponsors2015.php" class="drop-li">2015</a></li>
           </ul>
         </li>
       </ul>
