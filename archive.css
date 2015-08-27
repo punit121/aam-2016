@@ -1,0 +1,20 @@
+#container{
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	-webkit-flex-wrap:wrap;
+	-moz-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-justify-content:space-around;
+	-moz-justify-content:space-around;
+	justify-content:space-around;
+}
+
+#vid{
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	width:400px;
+	margin-bottom:20px;
+	border:5px solid Grey;
+}
