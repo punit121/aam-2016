@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION["email"])) {
+if ($_SESSION["email"] != "") {
   header('Location: ./login-complete.php');
   exit();
 }
