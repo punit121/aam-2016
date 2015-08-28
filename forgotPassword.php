@@ -8,8 +8,8 @@
   </head>
   <body>
     <?php include "navbar.php"; ?>
-    <div class="container" align="center">
-      <h2>Forgot Password</h2>
+    <div class="container">
+      <h2 align="center">Forgot Password</h2>
       <?php
       if (isset($_GET["alert"])) {
         echo "<div class='alert alert-danger alert-dismissible'>";
@@ -20,10 +20,14 @@
         echo "</div>";
       }
        ?>
-      <form class="" action="securityQues.php" method="post">
+      <form class="" action="newPassword.php" method="post">
         <div class="form-group">
           <label for="Email ID">Email ID</label>
           <input class="form-control" type="email" name="email" value="" placeholder="Email ID" required>
+        </div>
+        <div class="form-group">
+          <label for="DOB">Date of Birth</label>
+          <input class="form-control" type="date" name="dob" value="" placeholder="Date of Birth" required>
         </div>
         <button type="submit" class="btn btn-success btn-block" name="button">Submit</button>
       </form>
