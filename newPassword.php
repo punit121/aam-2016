@@ -10,10 +10,9 @@ $result = $connection->query($sql);
 if ($row = $result->fetch_assoc) {
   if ($dob == $row["dob"]) {
     $_SESSION["forgotPasswordEmail"] = $email;
-    echo "Dob matched. Enter new password";
+    header('Location: ./index.php?alert=Your Password has been reset');
   } else {
-    echo "No user registered with this email";
-    header('Location: ./forgotPassword.php?alert=No user registered with this email');
+    header('Location: ./forgotPassword.php?alert=Incorrect credentials. Password reset unsuccessful');
   }
 }
 ?>
