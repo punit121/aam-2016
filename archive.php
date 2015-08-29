@@ -10,21 +10,18 @@
 <body>
 	<div id="container">
 		<script>
-		var youtube_videos = ['<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>',
-								'<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>',
-								'<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>',
-								'<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>',
-								'<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>',
-								'<iframe width="560" height="315" src="https://www.youtube.com/embed/15tLVw0V-bM" frameborder="0" allowfullscreen></iframe>'
-								];
+		var youtube_videos = ['https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM'
+								,'https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM'
+							];
 		for(i=0;i<youtube_videos.length;i++){
-			$("#container").append("<div id='vid'></div>");
+			$("#container").append("<div class='col-lg-4 col-md-4 col-sm-6 col-sm-12' id='vid'><iframe frameborder='0' allowfullscreen></iframe></div>");
 			
 		}
 			var video = $('#vid');
+			
 		for(i=0;i<youtube_videos.length;i++){
 			
-			video.html(youtube_videos[i]);
+			video.children('iframe').attr('src',youtube_videos[i]);
 			video = video.next();
 		}
 		</script>
