@@ -10,6 +10,7 @@ if (isset($_SESSION["forgotPasswordEmail"])) {
 include 'connection.php';
 $sql = "UPDATE users SET password=$password WHERE email=$email";
 if ($connection->query($sql)) {
+  unset($_SESSION["forgotPasswordEmail"]);
   $connection->close();
   $_SESSION["email"] = $email;
   header('Location: ./login-complete.php');
