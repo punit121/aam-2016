@@ -14,6 +14,6 @@ if ($connection->query($sql)) {
   $_SESSION["email"] = $email;
   header('Location: ./login-complete.php');
 } else {
-  echo "Update failed";
+  header('Location: ./index.php?alert=We could not update your password. Please try again, after some time');
 }
 ?>
