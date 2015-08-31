@@ -9,7 +9,7 @@
   <body>
     <?php include "navbar.php"; ?>
     <div class="container">
-      <h2 align="center">Forgot Password</h2>
+      <h2 align="center">Reset your Password</h2>
       <?php
       if (isset($_GET["alert"])) {
         echo "<div class='alert alert-danger alert-dismissible'>";

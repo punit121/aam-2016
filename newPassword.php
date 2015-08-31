@@ -11,7 +11,7 @@ if ($row = $result->fetch_assoc) {
   if ($dob == $row["dob"]) {
     $_SESSION["forgotPasswordEmail"] = $email;
   } else {
-    header('Location: ./forgotPassword.php?alert=Incorrect credentials. Password reset unsuccessful');
+    header('Location: ./forgotPassword.php?alert=Incorrect credentials, Password reset unsuccessful');
   }
 }
 ?>
