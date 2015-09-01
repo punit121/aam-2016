@@ -10,8 +10,7 @@
 	?>
 	<div id="container">
 		<script>
-		var youtube_videos = ['https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM'
-								,'https://www.youtube.com/embed/15tLVw0V-bM','https://www.youtube.com/embed/15tLVw0V-bM'
+		var youtube_videos = ['15tLVw0V-bM','15tLVw0V-bM', '15tLVw0V-bM', '15tLVw0V-bM', '15tLVw0V-bM', '15tLVw0V-bM'
 							];
 		for(i=0;i<youtube_videos.length;i++){
 			$("#container").append("<div class='col-lg-4 col-md-4 col-sm-6 col-sm-12' id='vid'><iframe frameborder='0' allowfullscreen></iframe></div>");
@@ -21,7 +20,7 @@
 			
 		for(i=0;i<youtube_videos.length;i++){
 			
-			video.children('iframe').attr('src',youtube_videos[i]);
+			video.children('iframe').attr('src','https://www.youtube.com/embed/' + youtube_videos[i]);
 			video = video.next();
 		}
 		</script>
