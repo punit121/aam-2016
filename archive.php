@@ -15,7 +15,7 @@
 		'tDGhmJcgZzg','Utf3UQ04Tv8','d6Snm1JWy48'
 							];
 		for(i=0;i<youtube_videos.length;i++){
-			$("#container").append("<div class='col-lg-4 col-md-4 col-sm-6 col-sm-12' id='vid'><iframe frameborder='0' allowfullscreen></iframe></div>");
+			$("#container").append("<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12' id='vid'><iframe frameborder='0' allowfullscreen></iframe></div>");
 			
 		}
 			var video = $('#vid');
