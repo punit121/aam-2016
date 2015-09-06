@@ -58,7 +58,7 @@
       </div>
       <div class="form-group">
         <label for="Name">Zip Code</label>
-        <input class="form-control" type="number" placeholder="Zip Code" name="zipCode">
+        <input class="form-control" type="text" placeholder="Zip Code" name="zipCode">
       </div>
       <div class="form-group">
         <label for="Name">Mobile</label>
@@ -104,7 +104,7 @@
       </div>
       <div class="form-group">
         <label for="Name">Zip Code</label>
-        <input class="form-control" type="number" placeholder="Zip Code" name="work_zipCode">
+        <input class="form-control" type="text" placeholder="Zip Code" name="work_zipCode">
       </div>
       <div class="form-group">
         <label for="Name">Address</label>
@@ -114,7 +114,7 @@
       <h2>Section 3: Nostalgic Section</h2>
       <div class="form-group">
         <label for="Name">Roll Number</label>
-        <input class="form-control" type="number" placeholder="Roll Number" name="rollNum">
+        <input class="form-control" type="text" placeholder="Roll Number" name="rollNum">
       </div>
       <div class="form-group">
         <label for="Name">Join Year</label>
