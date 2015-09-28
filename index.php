@@ -21,10 +21,10 @@
       <div class="col-md-6 text-center" id="verticalLine">
         <img class="text-center" src="img/logo-square.jpg" alt="" class="logo" />
         <br>
-        <h2 class="text-center">15th Jan 2016 - 17th Jan 2016</h2>
+        <h2 class="text-center">15 - 17 January 2016</h2>
 
 <br>
-        <h2 class="text-center"><b>sponsored by</b></h2>
+        <h2 class="text-center"><b>Previous Sponsors</b></h2>
 
         <div id="myCarousel" class="carousel carousel-fade text-center" data-ride="carousel">
 
