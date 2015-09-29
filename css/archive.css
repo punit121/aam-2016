@@ -1,0 +1,48 @@
+#vid{
+	margin-bottom:20px;
+}
+
+
+
+@media screen and (min-width:992px){
+	#vid iframe{
+		width:425px; 
+		height:275px;
+	}
+}
+
+@media screen and (min-width:768px){
+	#vid iframe{
+		width:325px; 
+		height:275px;
+		
+	}
+	#container{
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:767px){
+	#vid iframe{
+		width:325px; 
+		height:275px;
+		
+	}
+	#container{
+		text-align:center;
+	}
+}
+
+@media screen and (min-width:1200px){
+	#vid iframe{
+		width:400px; 
+		height:310px;
+	}
+}
+
+@media screen and (max-width:350px){
+	#vid iframe{
+		width:250px; 
+		height:230px;
+	}
+}
