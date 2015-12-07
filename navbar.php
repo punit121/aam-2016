@@ -24,7 +24,7 @@ li a.drop-li
         <span class="sr-only"></span>
         <span class="sr-only"></span>
       </button>
-      <a href="./index.php" class="navbar-brand">
+      <a href="./home.php" class="navbar-brand">
         <!-- <img src="img/home.png" alt="" /> -->
         <i class="fa fa-home"></i>
       </a>
@@ -50,7 +50,7 @@ li a.drop-li
 				<li><a href="./signup.php">REGISTER</a></li>
         <?php
         if ($_SESSION["email"] != "") {
-          echo "<li><a href='./index.php'>Logged in as ".$_SESSION['email']."</a></li>";
+          echo "<li><a href='./home.php'>Logged in as ".$_SESSION['email']."</a></li>";
           echo "<li><a href='./logout.php'>LOGOUT</a></li>";
         } else {
           echo "<li><a href='./signin.php'>LOGIN</a></li>";
