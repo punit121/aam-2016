@@ -77,6 +77,18 @@ body {
 }
 */
 
+/*.spons {
+  border: 5px solid transparent;
+}
+.spons:hover {
+  border: 5px solid black;
+}*/
+
+.spons_head {
+  background-color: rgba(202, 65, 55, 0.9);
+  color: white;
+}
+
 @font-face {
   font-family: 'exomedium';
   src: url('../fonts/exo-medium-webfont.eot');

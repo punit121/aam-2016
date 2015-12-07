@@ -16,6 +16,7 @@
 <body>
   <?php include 'navbar.php'; ?>
 
+
     <div class="container">
       <div class="col-md-6 text-center" id="verticalLine">
         <img class="text-center" src="img/logo-square.jpg" alt="" class="logo" />
