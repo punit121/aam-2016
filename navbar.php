@@ -41,6 +41,7 @@ li a.drop-li
             <li><a href="./sponsors2013.php" class="drop-li">2013</a></li>
             <li><a href="./sponsors2014.php" class="drop-li">2014</a></li>
             <li><a href="./sponsors2015.php" class="drop-li">2015</a></li>
+            <li><a href="./sponsors2016.php" class="drop-li">2016</a></li>
           </ul>
         </li>
       </ul>
