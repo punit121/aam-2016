@@ -43,7 +43,7 @@
     <div class="col-md-3">
           <h2 class="spons_head" >Media Partner</h2>
       <a href="http://www.hindustantimes.com" target="_blank">
-        <img class="spons" style="width:70%;" src="img/spons/2015/media.png" width="800px" height="100" />
+        <img class="spons" style="width:90%;" src="img/spons/2015/media.png" width="800px" height="100" />
       </a>
     </div>
 
