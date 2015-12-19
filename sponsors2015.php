@@ -5,6 +5,13 @@
 <head>
   <title>13th Annual Alumni Meet &middot; Sponsors</title>
   <?php include 'topHead.php'; ?>
+  <style type="text/css">
+     .spons{
+
+        height: 120px;
+     } 
+
+  </style>
 </head>
 
 <body>
@@ -56,7 +63,7 @@
     <div class="col-md-3">
         <h2 class="spons_head"> Major Sponsor </h2>
         <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
-        <img class="spons" style="width:60%;" src="img/spons/2015/major.png" width="800px" height="100px" />
+        <img class="spons" style="width:80%;" src="img/spons/2015/major.png" width="800px" height="100px" />
       </a>
     </div>
     </div>
@@ -113,7 +120,7 @@
           <img class="spons" src="img/spons/2015/e7.png" width="200px" height="" />
         </a>
       </div>
-    </div>
+    </div><br><br>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.irel.gov.in" target="_blank">
@@ -165,7 +172,7 @@
           <img class="spons" src="img/spons/2015/g4.png" width="200px" height="" />
         </a>
       </div>
-    </div>
+    </div><br><br>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.motaramnamkeen.com" target="_blank">
@@ -187,7 +194,7 @@
           <img class="spons" src="img/spons/2015/g8.png" width="200px" height="200px" style="border-radius:100%;" />
         </a>
       </div>
-    </div>
+    </div><br><br>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.deuter.com/de/en/" target="_blank">
@@ -209,7 +216,7 @@
           <img class="spons" src="img/spons/2015/g12.png" width="200px" height="" />
         </a>
       </div>
-    </div>
+    </div><br><br>
     <div class="row">
       <div class="col-md-4">
         <a href="http://www.schneiderpen.de/en/home.php" target="_blank">
