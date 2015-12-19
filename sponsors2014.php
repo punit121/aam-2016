@@ -12,27 +12,31 @@
 			<h1> Sponsors 2014 </h1>
 			<br>
 			<br>
-			<h2 class="spons_head"> Co Sponsors </h2>
-      <div class="row">
+		   <div class="row">
+    	
+      <div class="col-md-4">
+       <h2 class="spons_head"> Co Sponsors </h2>
         <a href="http://www.bnpparibas.co.in/en/contact-us/srei-equipment-finance/" target="_blank">
-          <img class="spons" src="img/spons/2014/cosponsor.jpg" width="600px" height=""/>
+          <img class="spons" style="width:80%;" src="img/spons/2014/cosponsor.jpg" width="600px" height=""/>
         </a>
       </div>
 
-			<h2 class="spons_head"> Major Sponsors </h2>
-      <div class="row">
+		
+      <div class="col-md-4">
+        <h2 class="spons_head"> Major Sponsors </h2>
         <a href="http://www.hmel.in/" target="_blank">
           <img class="spons" src="img/spons/2014/major.png" width="200px" height=""/>
         </a>
       </div>
 
-			<h2 class="spons_head"> Healthcare Partner </h2>
-      <div class="row">
+      <div class="col-md-4">
+
+      <h2 class="spons_head"> Healthcare Partner </h2>
         <a href="http://www.hillemanlabs.org/" target="_blank">
           <img class="spons" src="img/spons/2014/e3.jpg" width="400px" height=""/>
         </a>
       </div>
-
+      </div>
 			<h2 class="spons_head"> Event Sponsors </h2>
       <div class="row">
         <div class="col-md-4">

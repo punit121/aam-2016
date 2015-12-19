@@ -12,8 +12,9 @@
   <div class="container-fluid" align="center">
     <h1> Sponsors 2015 </h1>
 		<br><br>
-    <h2 class="spons_head"> Co Sponsor </h2>
     <div class="row">
+    <div class="col-md-3">
+      <h2 class="spons_head"> Co Sponsor </h2>
       <a href="http://www.ulaindia.com" target="_blank">
         <img class="spons" src="img/spons/2015/cosponsor.png" width="350px" height="150px" />
       </a>
@@ -25,8 +26,9 @@
 		<br>
     <br> -->
 
-    <h2 class="spons_head"> Strategic Sponsor </h2>
-    <div class="row">
+    <div class="col-md-3">
+          <h2 class="spons_head"> Strategic Sponsor </h2>
+
       <a href="http://www.cselectric.co.in" target="_blank">
         <img class="spons" src="img/spons/2015/strategic.png" width="230px" height="200px" />
       </a>
@@ -38,10 +40,10 @@
 		<br>
     <br> -->
 
-    <h2 class="spons_head">Media Partner</h2>
-    <div class="row">
+    <div class="col-md-3">
+          <h2 class="spons_head" >Media Partner</h2>
       <a href="http://www.hindustantimes.com" target="_blank">
-        <img class="spons" src="img/spons/2015/media.png" width="800px" height="100" />
+        <img class="spons" style="width:70%;" src="img/spons/2015/media.png" width="800px" height="100" />
       </a>
     </div>
 
@@ -51,23 +53,43 @@
 		<br>
     <br> -->
 
-    <h2 class="spons_head"> Major Sponsor </h2>
-    <div class="row">
-      <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
-        <img class="spons" src="img/spons/2015/major.png" width="800px" height="100px" />
+    <div class="col-md-3">
+        <h2 class="spons_head"> Major Sponsor </h2>
+        <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
+        <img class="spons" style="width:60%;" src="img/spons/2015/major.png" width="800px" height="100px" />
       </a>
     </div>
-
+    </div>
     <!-- <br>
     <br>
     <br> -->
-    <h2 class="spons_head"> Luxury Hotel Partner </h2>
     <div class="row">
-      <a href="http://www.parkplaza.com" target="_blank">
+    
+   
+      <div class="col-md-4">
+         <h2 class="spons_head" style="width:200%;"> Online Media Partners </h2>
+        <a href="http://www.markmyfest.com" target="_blank">
+          <img class="spons" style="position:relative;top:45px;" src="img/spons/2015/omp1.png" width="275px" height="100px" />
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="http://www.letmeknow.in" target="_blank">
+          <img class="spons" style="position:relative;top:90px;" src="img/spons/2015/omp2.png" width="275px" height="100px" />
+        </a>
+      </div>
+  
+
+
+
+
+    
+    <div class="col-md-4">
+      <h2 class="spons_head"> Luxury Hotel Partner </h2>
+        <a href="http://www.parkplaza.com" target="_blank">
         <img class="spons" src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="300" />
       </a>
     </div>
-
+    </div>
     <!-- <br>
     <br>
     <br>
@@ -211,19 +233,7 @@
     <br>
 
 		<br> -->
-    <h2 class="spons_head"> Online Media Partners </h2>
-    <div class="row">
-      <div class="col-md-6">
-        <a href="http://www.markmyfest.com" target="_blank">
-          <img class="spons" src="img/spons/2015/omp1.png" width="275px" height="100px" />
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="http://www.letmeknow.in" target="_blank">
-          <img class="spons" src="img/spons/2015/omp2.png" width="275px" height="100px" />
-        </a>
-      </div>
-    </div>
+   
 		<br>
     <br>
     <br>
