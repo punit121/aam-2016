@@ -25,7 +25,7 @@
       <div class="col-md-4">
         <h2 class="spons_head"> Major Sponsors </h2>
         <a href="http://www.hmel.in/" target="_blank">
-          <img class="spons" src="img/spons/2014/major.png" width="200px" height=""/>
+          <img class="spons" style="height:120px;" src="img/spons/2014/major.png" width="200px" height=""/>
         </a>
       </div>
 
@@ -103,6 +103,7 @@
           </a>
         </div>
       </div>
+      <br/><br/><br/>
       <div class="row">
         <div class="col-md-3">
           <a href="http://www.tatonka.com/defaulten.aspx" target="_blank">

@@ -88,6 +88,8 @@ body {
  /* background-color: rgba(202, 65, 55, 0.9);
   color: white;
 */
+font-weight: bold;
+font-size: 32px;
 }
 
 @font-face {
