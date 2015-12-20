@@ -70,33 +70,7 @@
     <!-- <br>
     <br>
     <br> -->
-    <div class="row">
-    
-   
-      <div class="col-md-4">
-         <h2 class="spons_head" style="width:200%;"> Online Media Partners </h2>
-        <a href="http://www.markmyfest.com" target="_blank">
-          <img class="spons" style="position:relative;top:45px;" src="img/spons/2015/omp1.png" width="275px" height="100px" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="http://www.letmeknow.in" target="_blank">
-          <img class="spons" style="position:relative;top:90px;" src="img/spons/2015/omp2.png" width="275px" height="100px" />
-        </a>
-      </div>
-  
 
-
-
-
-    
-    <div class="col-md-4">
-      <h2 class="spons_head"> Luxury Hotel Partner </h2>
-        <a href="http://www.parkplaza.com" target="_blank">
-        <img class="spons" src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="300" />
-      </a>
-    </div>
-    </div>
     <!-- <br>
     <br>
     <br>
@@ -104,23 +78,7 @@
     <br> -->
 
     <h2 class="spons_head"> Event Sponsors </h2>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="http://www.tessolve.com" target="_blank">
-          <img class="spons" src="img/spons/2015/e1.png" width="250px" height="80px" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="http://www.bseindia.com" target="_blank">
-          <img class="spons" src="img/spons/2015/e2.png" width="200px" height="200px" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="http://www.npcil.nic.in" target="_blank">
-          <img class="spons" src="img/spons/2015/e7.png" width="200px" height="" />
-        </a>
-      </div>
-    </div><br><br>
+  <br><br>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.irel.gov.in" target="_blank">
@@ -142,6 +100,24 @@
           <img class="spons" src="img/spons/2015/e4.png" width="200px" height="" />
         </a>
       </div>
+    </div><br>
+      <div class="row">
+      <div class="col-md-3">
+        <a href="http://www.tessolve.com" target="_blank">
+          <img class="spons" src="img/spons/2015/e1.png" width="250px" height="80px" />
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="http://www.bseindia.com" target="_blank">
+          <img class="spons" src="img/spons/2015/e2.png" width="200px" height="200px" />
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="http://www.npcil.nic.in" target="_blank">
+          <img class="spons" src="img/spons/2015/e7.png" width="200px" height="" />
+        </a>
+      </div>
+      <div class="col-md-3"></div>
     </div>
     <!-- <br>
     <br>
@@ -234,7 +210,34 @@
         </a>
       </div>
     </div>
+    <br><br>
+        <div class="row">
+    
+   
+      <div class="col-md-4">
+         <h2 class="spons_head" style="width:200%;"> Online Media Partners </h2>
+        <a href="http://www.markmyfest.com" target="_blank">
+          <img class="spons" style="position:relative;top:45px;" src="img/spons/2015/omp1.png" width="275px" height="100px" />
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="http://www.letmeknow.in" target="_blank">
+          <img class="spons" style="position:relative;top:90px;" src="img/spons/2015/omp2.png" width="275px" height="100px" />
+        </a>
+      </div>
+  
 
+
+
+
+    
+    <div class="col-md-4">
+      <h2 class="spons_head"> Luxury Hotel Partner </h2>
+        <a href="http://www.parkplaza.com" target="_blank">
+        <img class="spons" src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="300" />
+      </a>
+    </div>
+    </div>
     <!-- <br>
     <br>
     <br>

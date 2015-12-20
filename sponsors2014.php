@@ -3,6 +3,13 @@
 
 <head>
   <title>13th Annual Alumni Meet &middot; Sponsors</title>
+  <style type="text/css">
+  .spons{
+
+    width: 220px;
+  }
+
+  </style>
   <?php include 'topHead.php'; ?>
 </head>
 
@@ -56,19 +63,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <a href="http://www.vanheusenindia.com/" target="_blank">
-            <img class="spons" src="img/spons/2014/e5.jpg"width="400px" height=""/>
+            <img class="spons" style="position:relative;top:18px;height:80px;"  src="img/spons/2014/e5.jpg"width="400px" height=""/>
           </a>
-        </div>
-        <div class="col-md-6">
+        </div><div class="col-md-4"></div>
+        <div class="col-md-4">
           <a href="http://www.kalikasteels.com/" target="_blank">
             <img class="spons" src="img/spons/2014/e6.png"width="200px" height=""/>
           </a>
         </div>
       </div>
 
-      <h2 class="spons_head"> Gift Sponsors </h2>
+      <h2 class="spons_head"> Gift Sponsors </h2><br/>
       <div class="row">
         <div class="col-md-4">
           <a href="http://www.gatikwe.com/" target="_blank">
@@ -94,12 +101,12 @@
         </div>
         <div class="col-md-4">
           <a href="http://www.coca-colaindia.com/" target="_blank">
-            <img class="spons" src="img/spons/2014/bev.jpg" width="200px" height=""/>
+            <img class="spons" style="height:180px;" src="img/spons/2014/bev.jpg" width="200px" height=""/>
           </a>
         </div>
         <div class="col-md-4">
           <a href="http://www.sardamagnets.com/" target="_blank">
-            <img class="spons" src="img/spons/2014/reg2.jpg"width="200px" height=""/>
+            <img class="spons" style="position:relative;top:18px;height:120px;"  src="img/spons/2014/reg2.jpg"width="200px" height=""/>
           </a>
         </div>
       </div>
