@@ -5,13 +5,7 @@
 <head>
   <title>13th Annual Alumni Meet &middot; Sponsors</title>
   <?php include 'topHead.php'; ?>
-  <style type="text/css">
-     .spons{
 
-        height: 120px;
-     } 
-
-  </style>
 </head>
 
 <body>
@@ -21,9 +15,9 @@
 		<br><br>
     <div class="row">
     <div class="col-md-3">
-      <h2 class="spons_head"> Co Sponsor </h2>
+      <h2 class="spons_head"> Co Sponsor </h2><hr>
       <a href="http://www.ulaindia.com" target="_blank">
-        <img class="spons" src="img/spons/2015/cosponsor.png" width="350px" height="150px" />
+        <img class="spons" src="img/spons/2015/cosponsor.png" width="350px" height="120px" />
       </a>
     </div>
 
@@ -34,10 +28,10 @@
     <br> -->
 
     <div class="col-md-3">
-          <h2 class="spons_head"> Strategic Sponsor </h2>
+          <h2 class="spons_head"> Strategic Sponsor </h2><hr>
 
       <a href="http://www.cselectric.co.in" target="_blank">
-        <img class="spons" src="img/spons/2015/strategic.png" width="230px" height="200px" />
+        <img class="spons" src="img/spons/2015/strategic.png" width="230px" height="120px" />
       </a>
     </div>
 
@@ -48,9 +42,9 @@
     <br> -->
 
     <div class="col-md-3">
-          <h2 class="spons_head" >Media Partner</h2>
+          <h2 class="spons_head" >Media Partner</h2><hr>
       <a href="http://www.hindustantimes.com" target="_blank">
-        <img class="spons" style="width:90%;" src="img/spons/2015/media.png" width="800px" height="100" />
+        <img class="spons"  src="img/spons/2015/media.png" width="300px" height="100" />
       </a>
     </div>
 
@@ -61,9 +55,9 @@
     <br> -->
 
     <div class="col-md-3">
-        <h2 class="spons_head"> Major Sponsor </h2>
+        <h2 class="spons_head"> Major Sponsor </h2><hr>
         <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
-        <img class="spons" style="width:80%;" src="img/spons/2015/major.png" width="800px" height="100px" />
+        <img class="spons"  src="img/spons/2015/major.png" width="300px" height="100px" />
       </a>
     </div>
     </div>
@@ -76,28 +70,28 @@
     <br>
 		<br>
     <br> -->
-
-    <h2 class="spons_head"> Event Sponsors </h2>
+    <br>
+    <h2 class="spons_head"> Event Sponsors </h2><hr>
   <br><br>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.irel.gov.in" target="_blank">
-          <img class="spons" src="img/spons/2015/e3.png" width="200px" height="" />
+          <img class="spons"  src="img/spons/2015/e3.png" width="200px" height="120px" />
         </a>
       </div>
       <div class="col-md-3">
         <a href="http://www.wbsetcl.in" target="_blank">
-          <img class="spons" src="img/spons/2015/e5.png" width="200px" height="" />
+          <img class="spons" src="img/spons/2015/e5.png" width="200px" height="120px" />
         </a>
       </div>
       <div class="col-md-3">
         <a href="http://www.isaimpex.in" target="_blank">
-          <img class="spons" src="img/spons/2015/e6.png" width="200px" height="" />
+          <img class="spons" src="img/spons/2015/e6.png" width="200px" height="120px" />
         </a>
       </div>
       <div class="col-md-3">
         <a href="http://www.ucil.gov.in/web/index.asp" target="_blank">
-          <img class="spons" src="img/spons/2015/e4.png" width="200px" height="" />
+          <img class="spons" src="img/spons/2015/e4.png" width="200px" height="120px" />
         </a>
       </div>
     </div><br>
@@ -109,12 +103,12 @@
       </div>
       <div class="col-md-3">
         <a href="http://www.bseindia.com" target="_blank">
-          <img class="spons" src="img/spons/2015/e2.png" width="200px" height="200px" />
+          <img class="spons" src="img/spons/2015/e2.png" width="200px" height="120px" />
         </a>
       </div>
       <div class="col-md-3">
         <a href="http://www.npcil.nic.in" target="_blank">
-          <img class="spons" src="img/spons/2015/e7.png" width="200px" height="" />
+          <img class="spons" src="img/spons/2015/e7.png" width="200px" height="120px" />
         </a>
       </div>
       <div class="col-md-3"></div>
@@ -127,6 +121,7 @@
     <br> -->
     <br>
     <h2 class="spons_head"> Gift Sponsors </h2>
+    <hr>
     <div class="row">
       <div class="col-md-3">
         <a href="http://www.bulkemailsmsindia.com" target="_blank">
@@ -167,7 +162,7 @@
       </div>
       <div class="col-md-3">
         <a href="http://www.coca-colaindia.com/" target="_blank">
-          <img class="spons" src="img/spons/2015/g8.png" width="200px" height="200px" style="border-radius:100%;" />
+          <img class="spons" src="img/spons/2015/g8.png" width="200px" height="140px" style="border-radius:100%;" />
         </a>
       </div>
     </div><br><br>
@@ -179,7 +174,7 @@
       </div>
       <div class="col-md-3">
         <a href="http://nightingale.co.in" target="_blank">
-          <img class="spons" src="img/spons/2015/g10.png" width="230px" height="250px" />
+          <img class="spons" src="img/spons/2015/g10.png" width="230px" height="120px" />
         </a>
       </div>
       <div class="col-md-3">
@@ -194,28 +189,28 @@
       </div>
     </div><br><br>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <a href="http://www.schneiderpen.de/en/home.php" target="_blank">
-          <img class="spons" src="img/spons/2015/g13.png" width="350px" height="100px" />
+          <img class="spons"  src="img/spons/2015/g13.png" width="280px" height="100px" />
         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <a href="http://www.10kya.com" target="_blank">
-          <img class="spons" src="img/spons/2015/g14.png" width="300px" height="" />
+          <img class="spons"   src="img/spons/2015/g14.png" width="250px" height="" />
         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <a href="http://goo.gl/t2S0xZ" target="_blank">
-          <img class="spons" src="img/spons/2015/g15.png" width="300px" height="" />
+          <img class="spons"  style="position:relative;left:45px;" src="img/spons/2015/g15.png" width="250px" height="" />
         </a>
-      </div>
+      </div><div class="col-md-3"></div>
     </div>
     <br><br>
         <div class="row">
     
    
       <div class="col-md-4">
-         <h2 class="spons_head" style="width:200%;"> Online Media Partners </h2>
+         <h2 class="spons_head" style="width:200%;"> Online Media Partners </h2><hr style="width:800px;">
         <a href="http://www.markmyfest.com" target="_blank">
           <img class="spons" style="position:relative;top:45px;" src="img/spons/2015/omp1.png" width="275px" height="100px" />
         </a>
@@ -232,9 +227,9 @@
 
     
     <div class="col-md-4">
-      <h2 class="spons_head"> Luxury Hotel Partner </h2>
+      <h2 class="spons_head"> Luxury Hotel Partner </h2><hr>
         <a href="http://www.parkplaza.com" target="_blank">
-        <img class="spons" src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="300" />
+        <img class="spons" src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="120" />
       </a>
     </div>
     </div>
