@@ -13,7 +13,6 @@
 
 <body>
 
-	<?php include "navbar.php"; ?>
   <div class="container-fluid">
   	<form action="acco-travel-form-continue.php" method="post">
       <h2> Travel Details </h2>
