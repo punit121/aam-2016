@@ -1,5 +1,5 @@
 <?php
- if ($_SESSION["email"] != "") {
+ if ($_SESSION["email"] == "") {
    header('Location: ./signin.php');
    exit();
  }
@@ -13,6 +13,7 @@
 
 <body>
 
+	<?php include "navbar.php"; ?>
   <div class="container-fluid">
   	<form action="form-continue.php" method="post">
       <h2> Travel Details </h2>

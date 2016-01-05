@@ -1,6 +1,6 @@
 <?php
-if ($_SESSION["email"] != "" || empty($_POST['button'])) {
-	header('Location:form.php');
+if ($_SESSION["email"] == "" || empty($_POST['button'])) {
+	header('Location:acco-travel-form.php');
 }
 mysql_connect("localhost","root","") or die();
 mysql_select_db("meetform") or die();

@@ -25,7 +25,7 @@
 					<p>
 						We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
 					</p>
-					<?php include 'form.php'; ?>
+					<?php include 'acco-travel-form.php'; ?>
 					<div class="container" id="payment">
 						<div class="panel panel-default">
 							<div class="panel-heading">
