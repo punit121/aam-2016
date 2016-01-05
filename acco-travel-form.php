@@ -15,7 +15,7 @@
 
 	<?php include "navbar.php"; ?>
   <div class="container-fluid">
-  	<form action="form-continue.php" method="post">
+  	<form action="acco-travel-form-continue.php" method="post">
       <h2> Travel Details </h2>
       <div class="form-group">
         <label for="Name">Arrival Date</label>
