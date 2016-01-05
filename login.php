@@ -6,7 +6,7 @@ if ($_SESSION["email"] != "") {
 }
 $email = $_POST["email"];
 $password = $_POST["password"];
-$password = hash('sha256',$password);
+$password = hash('sha256', $password);
 /*
 echo "Email ID $email <br>";
 echo "Password after hash: $password <br>";
@@ -14,7 +14,6 @@ echo "Password after hash: $password <br>";
 include 'connection.php';
 $sql = "SELECT email, password FROM users";
 $result = $connection->query($sql);
-
 if ($result->num_rows > 0) {
   // output num rows
   while ($row = $result->fetch_assoc()) {

@@ -50,13 +50,13 @@ li a.drop-li
         <li><a href="./contact.php">CONTACT US</a></li>
 				<li><a href="./signup.php">REGISTER</a></li>
         <?php
-        if ($_SESSION["email"] != "") {
-          echo "<li><a href='./index.php'>Logged in as ".$_SESSION['email']."</a></li>";
-          echo "<li><a href='./logout.php'>LOGOUT</a></li>";
-        } else {
-          echo "<li><a href='./signin.php'>LOGIN</a></li>";
-        }
-        ?>
+if ($_SESSION["email"] != "") {
+  echo "<li><a href='./index.php'>Logged in as " . $_SESSION['email'] . "</a></li>";
+  echo "<li><a href='./logout.php'>LOGOUT</a></li>";
+} else {
+  echo "<li><a href='./signin.php'>LOGIN</a></li>";
+}
+?>
       </ul>
     </div>
   </div>

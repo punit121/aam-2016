@@ -1,7 +1,7 @@
 <?php
 session_start();
 $password = $_POST["password"];
-$password = hash('sha256',$password);
+$password = hash('sha256', $password);
 if (isset($_SESSION["forgotPasswordEmail"])) {
   $email = $_SESSION["forgotPasswordEmail"];
   unset($_SESSION["forgotPasswordEmail"]);

@@ -2,11 +2,9 @@
 session_start();
 $email = $_POST["email"];
 $dob = $_POST["dob"];
-
 include 'connection.php';
 $sql = "SELECT * FROM users WHERE email=$email";
 $result = $connection->query($sql);
-
 if ($row = $result->fetch_assoc) {
   if ($dob == $row["dob"]) {
     $_SESSION["forgotPasswordEmail"] = $email;

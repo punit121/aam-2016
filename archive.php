@@ -6,8 +6,8 @@
 </head>
 <body>
 	<?php
-	include 'navbar.php';
-	?>
+include 'navbar.php';
+?>
 	<div id="container">
 		<script>
 		var youtube_videos = ['zh9BTTuOk3g','yXtWhcag5CA', 'bNKRQ7KgtfM', 'joODd099ncs', 'mDEaX8XVsKI', 'AtpzG6q7bj0','02kgVTY3ZuM','Fzfd1tYfjwg','KsXKyUcv4R4',

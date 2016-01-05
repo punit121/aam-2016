@@ -2,7 +2,7 @@
 session_start();
 $email = $_POST["email"];
 $password = $_POST["password"];
-$password = hash('sha256',$password);
+$password = hash('sha256', $password);
 $name = $_POST["name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
@@ -57,18 +57,14 @@ echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
 include 'connection.php';
-
 $sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
         VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
-
 $_SESSION["email"] = $email;
-
 if ($connection->query($sql)) {
   $connection->close();
   header('Location: ./registration-complete.php');
   exit;
 } else {
-  echo "Error: ".$connection->error;
+  echo "Error: " . $connection->error;
 }
-
- ?>
+?>
