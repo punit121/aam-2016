@@ -12,6 +12,7 @@ echo "Email ID $email <br>";
 echo "Password after hash: $password <br>";
 */
 include 'connection.php';
+
 $sql = "SELECT email, password FROM users";
 $result = $connection->query($sql);
 
