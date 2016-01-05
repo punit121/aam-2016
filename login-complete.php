@@ -1,6 +1,6 @@
 <?php
  session_start();
- if ($_SESSION["email"] != "") {
+ if ($_SESSION["email"] == "") {
    header('Location: ./signin.php');
    exit();
  }
