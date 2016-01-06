@@ -43,7 +43,7 @@ $prefHall=$_POST['prefHall'];
 
 $query1="INSERT INTO travel set email='$email', arrivaldate='$arrDate', arrivalstation='$arrSt', trainname='$trainName', trainno='$trainNo', accompanyno='$accNo', 
 cabreq='$iscab', cabfrom='$cabWhere', cabat='$cabWhen',arrivaltime='$arrTime' , cabdate='$cabDate' , arrivalcabpref='$acabPref' , departdate='$depDate' ,
- departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref' ";
+ departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref', cabpeople='$cabPpl' ";
 
 $result1=$connection->query($query1);
 
