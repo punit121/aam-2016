@@ -3,6 +3,9 @@
    header('Location: ./signin.php');
    exit();
  }
+ if($_SESSION['form_submit']=='fail') {
+  echo "<font size=4.5 color=red>There was a problem in submission, please try again.</font>";
+ }
  ?>
 <html>
 
@@ -15,14 +18,16 @@
 
   <div class="container-fluid">
   	<form action="acco-travel-form-continue.php" method="post">
-      <h2> Travel Details </h2>
+       <h2> Travel Details </h2>
       <div class="form-group">
         <label for="Name">Arrival Date</label>
         <select name="arrDate" class="form-control">
-        	<option>13th January 2016</option>
-        	<option>14th January 2016</option>
-        	<option>15th January 2016</option>
-        	<option>16th January 2016</option>
+          <option>12th January 2016</option>
+          <option>13th January 2016</option>
+          <option>14th January 2016</option>
+          <option>15th January 2016</option>
+          <option>16th January 2016</option>
+          <option>17th January 2016</option>
         </select>
       </div>
       <div class="form-group">
@@ -46,10 +51,10 @@
         <input class="form-control" type="number" placeholder="No of Accompanying Person" name="accNo">
       </div>
       <div class="form-group">
-        <label for="Name">Do you require a cab from Kolkata?</label>
+        <label for="Name">Do you require a cab from Kolkata to IIT Kharagpur?</label>
         <select name="iscab" class="form-control" onchange="checkCab(this)">
-        	<option>N</option>
-        	<option>Y</option>
+          <option>No</option>
+          <option>Yes</option>
         </select>
       </div>
       <div class="form-group" style="display:none; margin-left:5%" id="ifcab">
@@ -60,54 +65,51 @@
         <input class="form-control" type="date" placeholder="Date when the cab is required" name="cabDate">
         <label for="Name">Pickup Time</label>
         <input class="form-control" type="time" placeholder="Time when the cab is required" name="cabWhen">
+        <label for="Name"> Total Number of People travelling in cab</label>
+        <input class="form-control" type="number" placeholder="Total people in cab" name="cabPpl">
         <label for="Name">Cab Preference</label>
         <select name="acabPref" class="form-control">
-        	<option>Swift dezire</option>
-        	<option>Scorpio</option>
-        	<option>Honda City</option>
-        	<option>Indigo</option>
+          <option>Swift dezire</option>
+          <option>Scorpio</option>
+          <option>Honda City</option>
+          <option>Indigo</option>
         </select>
       </div>
       <br><br>
        <div class="form-group">
         <label for="Name">Departure Date</label>
         <select name="depDate" class="form-control">
-        	<option>17th January 2016</option>
-        	<option>18th January 2016</option>
-        	<option>19th January 2016</option>
+            <option>16th January 2016</option>
+            <option>17th January 2016</option>
+            <option>18th January 2016</option>
+            <option>19th January 2016</option>
+            <option>20th January 2016</option>
+            <option>21st January 2016</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="Name">Departure Time</label>
-        <input class="form-control" type="time" placeholder="Arrival Time" name="depTime">
-      </div>
-      <div class="form-group">
-        <label for="Name">Departure Station/Airport</label>
-        <input class="form-control" type="text" placeholder="CCU/Howrah/Kharagpur/Other" name="depSt">
-      </div>
-      <div class="form-group">
-        <label for="Name">Train/Flight Name</label>
-        <input class="form-control" type="text" placeholder="Train/Flight Name" name="dtrainName">
-      </div>
-      <div class="form-group">
-        <label for="Name">Train/Flight Number</label>
-        <input class="form-control" type="text" placeholder="Train/Flight Number" name="dtrainNo">
-      </div>
-      <div class="form-group">
-        <label for="Name">Do you require a cab to Kolkata?</label>
+        <label for="Name">On Departure, Do you require a cab to Kolkata?</label>
         <select name="iscab2" class="form-control" onchange="checkCab2(this)">
-        	<option>N</option>
-        	<option>Y</option>
+          <option>No</option>
+          <option>Yes</option>
         </select>
       </div>
       <div class="form-group" style="display:none; margin-left:5%" id="ifcab2">
-      <label for="Name">If Cab is required</label><br>
+        <label for="Name">If Cab is required</label><br>
+        <div class="form-group">
+        <label for="Name">Departure Time</label>
+        <input class="form-control" type="time" placeholder="Arrival Time" name="depTime">
+        </div>
+        <div class="form-group">
+          <label for="Name">Departure Station/Airport</label>
+          <input class="form-control" type="text" placeholder="CCU/Howrah/Kharagpur/Other" name="depSt">
+        </div>
         <label for="Name">Cab Preference</label>
         <select name="dcabPref" class="form-control">
-        	<option>Swift dezire</option>
-        	<option>Scorpio</option>
-        	<option>Honda City</option>
-        	<option>Indigo</option>
+          <option>Swift dezire</option>
+          <option>Scorpio</option>
+          <option>Honda City</option>
+          <option>Indigo</option>
         </select>
       </div>
       <hr>
@@ -116,15 +118,15 @@
       <div class="form-group">
         <label for="Name">Number of Accompanying Person</label>
         <select class="form-control" name="accNo2" onchange="checkAcc(this)">
-        	<option>0</option>
-        	<option>1</option>
-        	<option>2</option>
-        	<option>3</option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
         </select>
       </div>
       <div class="form-group" style="display:none; margin-left:5%" id="ifacc1">
-      	<label for="Name">Accompanying Persons</label><br>
-      	<label for="Name">1.</label><br>
+        <label for="Name">Accompanying Persons</label><br>
+        <label for="Name">1.</label><br>
         <label for="Name">Name of Person</label>
         <input class="form-control" type="text" placeholder="Name" name="accName1">
         <label for="Name">Relationship with the Person</label>
@@ -133,7 +135,7 @@
         <input class="form-control" type="number" placeholder="Age" name="accAge1">
       </div>
       <div class="form-group" style="display:none; margin-left:5%" id="ifacc2">
-      	<label for="Name">2.</label><br>
+        <label for="Name">2.</label><br>
         <label for="Name">Name of Person</label>
         <input class="form-control" type="text" placeholder="Name" name="accName2">
         <label for="Name">Relationship with the Person</label>
@@ -142,7 +144,7 @@
         <input class="form-control" type="number" placeholder="Age" name="accAge2">
       </div>
       <div class="form-group" style="display:none; margin-left:5%" id="ifacc3">
-      	<label for="Name">3.</label><br>
+        <label for="Name">3.</label><br>
         <label for="Name">Name of Person</label>
         <input class="form-control" type="text" placeholder="Name" name="accName3">
         <label for="Name">Relationship with the Person</label>
@@ -151,15 +153,15 @@
         <input class="form-control" type="number" placeholder="Age" name="accAge3">
       </div>
       
-      <div class="form-group" style="display:block; margin-left:5%" id="ifacc0">
-      <label>Preferred Alumni You Want to Share the room with:<br></label>
+      <div class="form-group" style="margin-top:20px;">
+      <label>Preferred Alumni You Want to Share the room/take adjacent room with:</label><br>
         <label for="Name">Name</label>
         <input class="form-control" type="text" placeholder="Name of preferred person" name="prefName">
-        <label for="Name">Year of Graduation:</label>
-        <input class="form-control" type="number" placeholder="Year of Graduation" name="prefYear">
-        <label for="Name">Department</label>
+        <label for="Name">Year of Graduation of Preferred Person:</label>
+        <input class="form-control" type="number" placeholder="Year of Graduation of preferred person" name="prefYear">
+        <label for="Name">Department of the person</label>
         <input class="form-control" type="text" placeholder="Department of preferred person" name="prefDep">
-        <label for="Name">Hall</label>
+        <label for="Name">Hall of the person</label>
         <input class="form-control" type="text" placeholder="Hall of preferred person" name="prefHall">
       </div>
       <button type="submit" class="btn btn-success btn-lg btn-block" name="button">SUBMIT</button>
@@ -169,41 +171,35 @@
 
 
   <script type="text/javascript">
-  	function checkCab(x) {
-  		if(x.options[x.selectedIndex].text=="Y") {
-  			document.getElementById("ifcab").style.display="block";
-  		}
-  		else {
-  			document.getElementById("ifcab").style.display="none";
-  		}
-  	}
+    function checkCab(x) {
+      if(x.options[x.selectedIndex].text=="Yes") {
+        document.getElementById("ifcab").style.display="block";
+      }
+      else {
+        document.getElementById("ifcab").style.display="none";
+      }
+    }
 
-  	function checkCab2(x) {
-  		if(x.options[x.selectedIndex].text=="Y") {
-  			document.getElementById("ifcab2").style.display="block";
-  		}
-  		else {
-  			document.getElementById("ifcab2").style.display="none";
-  		}
-  	}
+    function checkCab2(x) {
+      if(x.options[x.selectedIndex].text=="Yes") {
+        document.getElementById("ifcab2").style.display="block";
+      }
+      else {
+        document.getElementById("ifcab2").style.display="none";
+      }
+    }
 
-  	function checkAcc(x) {
-  		var n=x.options[x.selectedIndex].text;
-  		var y= new Array("ifacc1","ifacc2","ifacc3");
-  		var i;
-  		if(n>0) {
-  			document.getElementById("ifacc0").style.display="none";
-  		}
-  		if(n==0) {
-  			document.getElementById("ifacc0").style.display="block";
-  		}
-  		for(i=0;i<n;i++) {
-  			document.getElementById(y[i]).style.display="block";
-  		}
-  		for(i=n;i<3;i++) {
-  			document.getElementById(y[i]).style.display="none";
-  		}
-  	}
+    function checkAcc(x) {
+      var n=x.options[x.selectedIndex].text;
+      var y= new Array("ifacc1","ifacc2","ifacc3");
+      var i;
+      for(i=0;i<n;i++) {
+        document.getElementById(y[i]).style.display="block";
+      }
+      for(i=n;i<3;i++) {
+        document.getElementById(y[i]).style.display="none";
+      }
+    }
   </script>
 
 </body>
