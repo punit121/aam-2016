@@ -39,6 +39,7 @@ if (isset($_GET["err"])) {
       </div>
       <button type="submit" class="btn btn-success btn-lg btn-block" name="button">LOGIN</button>
     </form>
+    <div style="text-align:center; font-size:1.5em;"> <a href="password-reset.php">Forgot Password?</a></div>
   </div>
   <script type="text/javascript">
     function parseURLParams(url) {
