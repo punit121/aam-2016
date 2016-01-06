@@ -125,7 +125,11 @@
 	<h2 style="text-align:center">Fine Arts Photography</h2>
 	<div class="row">
 	<div class=""><a href="" target="_blank" >
+<<<<<<< HEAD
         <img class="spons" src="img/spons/sponsors16/pics/sigma.jpg" width="120" height="90" />
+=======
+        <img class="spons" src="img/spons/sponsors16/pics/Sigma.jpg" width="120" height="90" />
+>>>>>>> 7b2ec217cfbfc3c7bcdcb7fe3b2c4d82588f3ed5
 	    </a>
 	    </div>
 
