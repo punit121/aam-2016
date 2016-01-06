@@ -33,13 +33,14 @@ if (isset($_GET["err"])) {
         <label for="Email ID">Email ID</label>
         <input class="form-control" type="email" name="email" value="" placeholder="Email ID">
       </div>
+      <!--
       <div class="form-group">
         <label for="Password">Password</label>
         <input class="form-control" type="password" name="password" value="" placeholder="Password">
-      </div>
+      </div>-->
       <button type="submit" class="btn btn-success btn-lg btn-block" name="button">LOGIN</button>
     </form>
-    <div style="text-align:center; font-size:1.5em;"> <a href="password-reset.php">Forgot Password?</a></div>
+    <!-- <div style="text-align:center; font-size:1.5em;"> <a href="password-reset.php">Forgot Password?</a></div> -->
   </div>
   <script type="text/javascript">
     function parseURLParams(url) {
