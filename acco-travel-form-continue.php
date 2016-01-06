@@ -16,6 +16,7 @@ $iscab=$_POST['iscab'];
 $cabWhere=$_POST['cabWhere'];
 $cabWhen=$_POST['cabWhen'];
 $cabDate=$_POST['cabDate'];
+$cabPpl=$_POST['cabPpl'];		//To be added in database column
 $depDate=$_POST['depDate'];
 $depTime=$_POST['depTime'];
 $depSt=$_POST['depSt'];
@@ -51,5 +52,15 @@ accrel2='$accRel2', accage2='$accAge2', accname3='$accName3', accrel3='$accRel3'
 prefhall='$prefHall' ";
 
 $result2=$connection->query($query2);
+
+if($result1!=FALSE && $result2!=FALSE) {
+	$_SESSION['form_submit']=TRUE;
+	header('Location:welcome.php');
+}
+
+else {
+	$_SESSION['form_submit']='fail';
+	header('Location:acco-travel-form.php');
+}
 
 ?>
