@@ -21,43 +21,61 @@
         <img class="text-center" src="img/logo-square.jpg" alt="" class="logo" />
         <br>
         <h3 class="text-center">15th to 17th January, 2016</h3>
-        <h3 class="text-center"><b>Previous sponsors</b></h3>
+        <h2 class="text-center"><b>Sponsors</b></h2>
 
         <div id="myCarousel" class="carousel carousel-fade text-center" data-ride="carousel">
 
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e3.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/h.jpg" width="270" height="110" />
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e2.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/m.jpg" width="190" height="140"  />
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/g11.png" width="250" height="300px">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/i3.png" width="190" height="100">
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e5.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/i.jpg" width="200" height="130">
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/luxuryhotelpartner.png" width="200" height="200">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/ac.png" width="120" height="90" >
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/g8.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/e.jpg" width="200" height="100" >
             </div>
             <div class="item">
-              <img src="img/spons/frontpage-sponsors/strategic.png" width="148" height="180">
+              <img class="img-responsive" src="img/spons/sponsors16/f.jpg" width="200" height="100" >
             </div>
             <div class="item">
-              <img src="img/spons/frontpage-sponsors/g9.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/d.jpg" width="200" height="170">
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e7.png" width="200" height="400">
+              <img class="img-responsive" src="img/spons/sponsors16/n.jpg" width="250" height="100">
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e5.png" width="150" height="300">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/airtel.jpg" width="170" height="120">
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/frontpage-sponsors/e4.png" width="148" height="148">
+              <img class="img-responsive" src="img/spons/sponsors16/o.jpg" width="190" height="170">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/sigma.jpg" width="120" height="90">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/g.jpg" width="290" height="200">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/g8.png" width="210px" height="160px">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/presto.jpg" width="190" height="80">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/k.jpg" width="190" height="100">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/f.jpg" width="240" height="90">
             </div>
           </div>
         </div>
@@ -97,9 +115,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 2500 //changes the speed
+    })
+    </script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-<script src="js/typed.min.js"></script>
-
-<script src="js/main.js"></script>
-
 </html>
