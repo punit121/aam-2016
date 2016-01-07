@@ -27,58 +27,59 @@
 
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img class="img-responsive" src="img/spons/sponsors16/h.jpg" width="270" height="110" />
+              <img class="img-responsive" src="img/spons/sponsors16/h.jpg" width="270" height="110" /><label style="margin-top:8px; font-size:1.25em;">Title Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/m.jpg" width="190" height="140"  />
+              <img class="img-responsive" src="img/spons/sponsors16/m.jpg" width="190" height="140"  /><label style="margin-top:8px; font-size:1.25em;">Co Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/i3.png" width="190" height="100">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/i3.png" width="190" height="100"><label style="margin-top:8px; font-size:1.25em;">Co Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/i.jpg" width="200" height="130">
+              <img class="img-responsive" src="img/spons/sponsors16/i.jpg" width="200" height="130"><label style="margin-top:8px; font-size:1.25em;">Strategic Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/ac.png" width="120" height="90" >
+              <img class="img-responsive" src="img/spons/sponsors16/pics/ac.png" width="120" height="90" ><label style="margin-top:8px; font-size:1.25em;">Major Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/e.jpg" width="200" height="100" >
+              <img class="img-responsive" src="img/spons/sponsors16/e.jpg" width="200" height="100" ><label style="margin-top:8px; font-size:1.25em;">Driven By</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/f.jpg" width="200" height="100" >
+              <img class="img-responsive" src="img/spons/sponsors16/f.jpg" width="200" height="100" ><label style="margin-top:8px; font-size:1.25em;">Driven By</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/d.jpg" width="200" height="170">
+              <img class="img-responsive" src="img/spons/sponsors16/d.jpg" width="200" height="170"><label style="margin-top:8px; font-size:1.25em;">Event Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/n.jpg" width="250" height="100">
+              <img class="img-responsive" src="img/spons/sponsors16/n.jpg" width="250" height="100"><label style="margin-top:8px; font-size:1.25em;">Event Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/airtel.jpg" width="170" height="120">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/airtel.jpg" width="170" height="120"><label style="margin-top:8px; font-size:1.25em;">Event Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/o.jpg" width="190" height="170">
+              <img class="img-responsive" src="img/spons/sponsors16/o.jpg" width="190" height="170"><label style="margin-top:8px; font-size:1.25em;">Outdoor Gear Partner</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/sigma.jpg" width="120" height="90">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/sigma.jpg" width="120" height="90"><label style="margin-top:8px; font-size:1.25em;">Fine Arts Photography</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/g.jpg" width="290" height="200">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/g.jpg" width="290" height="200"><label style="margin-top:8px; font-size:1.25em;">Luxury Gift Partner</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/g8.png" width="210px" height="160px">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/g8.png" width="210px" height="160px"><label style="margin-top:8px; font-size:1.25em;">Beverage Partner</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/presto.jpg" width="190" height="80">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/presto.jpg" width="190" height="80"><label style="margin-top:8px; font-size:1.25em;">Gift Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/k.jpg" width="190" height="100">
+              <img class="img-responsive" src="img/spons/sponsors16/k.jpg" width="190" height="100"><label style="margin-top:8px; font-size:1.25em;">Gift Sponsor</label>
             </div>
             <div class="item">
-              <img class="img-responsive" src="img/spons/sponsors16/pics/f.jpg" width="240" height="90">
+              <img class="img-responsive" src="img/spons/sponsors16/pics/f.jpg" width="240" height="90"><label style="margin-top:8px; font-size:1.25em;">Gift Sponsor</label>
             </div>
           </div>
         </div>
+
       </div>
 
       <div class="col-md-6">

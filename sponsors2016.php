@@ -237,7 +237,7 @@
 	    </div>
 	    
 	     <div class="col-md-4">
-      <a href=""" target="_blank">
+      <a href="" target="_blank">
          <img class="spons" style="position:relative;top:0px;" src="img/spons/sponsors16/pics/p.jpg" width="230" height="70" />
       </a>
    	
@@ -254,7 +254,7 @@
 
 
     
-	 	 <h2 class="spons_head" style="text-align:center;" >Premium Suitings Parner</h2>
+	 	 <h2 class="spons_head" style="text-align:center;" >Premium Suitings Partner</h2>
 	 	 <div class="col-md-3"></div>
     <div class="col-md-3">
          
