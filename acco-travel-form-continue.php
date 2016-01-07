@@ -1,4 +1,5 @@
 <?php
+session_start();
 if ($_SESSION["email"] == "" || empty($_POST['button'])) {
 	header('Location:acco-travel-form.php');
 }
