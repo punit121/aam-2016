@@ -52,6 +52,10 @@
         <input class="form-control" type="number" placeholder="No of Accompanying Person" name="accNo">
       </div>
       <div class="form-group">
+        <label for="Name">Your Secondary Phone Number</label>
+        <input class="form-control" type="number" placeholder="No of Accompanying Person" name="secPhone">
+      </div>
+      <div class="form-group">
         <label for="Name">Do you require a cab from Kolkata to IIT Kharagpur?</label>
         <select name="iscab" class="form-control" onchange="checkCab(this)">
           <option>No</option>
