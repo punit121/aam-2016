@@ -22,19 +22,19 @@
 	<br/><br/>
 	<div class="row"><div class="col-md-1"></div>		<div class="col-md-3">
 		<div class=""><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
-	        	<img class="spons"  src="img/spons/sponsors16/pics/l2.gif" width="250" height="90" />
+	        	<img class="spons" style="position:relative;top:20px;" src="img/spons/sponsors16/pics/fin.jpg" width="250" height="60" />
 		    	</a>
 		    </div>	
 		</div>	
 		<div class="col-md-4">
 		<div class=""><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
-	        	<img class="spons"  src="img/spons/sponsors16/pics/l2.png" width="250" height="90" />
+	        	<img class="spons" style="position:relative;top:-20px;"  src="img/spons/sponsors16/pics/l22.jpg" width="250" height="150" />
 		    	</a>
 		    </div>	
 		</div>	
 		<div class="col-md-2">
 		<div class=""><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
-	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/l3.png" width="230" height="100" />
+	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/l33.jpg" width="230" height="130" />
 		    	</a>
 		    </div>	
 		</div>	
@@ -138,14 +138,6 @@
 	    </div>
 
 	</div><br>
-	<h2 style="text-align:center;">Luxury Gift Partner </h2>
-	<div class="row">
-		  <div class=""><a href="http://www.giftstoindia24x7.com/" target="_blank" >
-        <img class="spons" style="position:relative;top:-15px;" src="img/spons/sponsors16/pics/g.jpg" width="290" height="175" />
-	    </a>
-	    </div>
-
-	</div>
 	<div class="row">
 	<h2 style="position:relative;top:-25px;text-align:center;">Beverage Partner</h2>
 	<div class="">
@@ -155,6 +147,28 @@
       </div>
 
 	</div><br/>
+	<h2 style="text-align:center;">Luxury Gift Partner </h2>
+	<div class="row">
+		  <div class=""><a href="http://www.giftstoindia24x7.com/" target="_blank" >
+        <img class="spons" style="position:relative;top:-15px;" src="img/spons/sponsors16/pics/g.jpg" width="290" height="175" />
+	    </a>
+	    </div>
+
+	</div>
+	<h2 style="text-align:center;position:relative;top:-35px;">Banking Partner</h2>
+	<div class="row">
+
+		 <div class=""><a href="https://www.sbi.co.in/" target="_blank" >
+        <img class="spons" style="position:relative;left:-10px;" src="img/spons/sponsors16/pics/sb.jpeg" width="250" height="90" />
+	    </a>
+	    </div>
+
+
+
+	</div>
+	<br/>
+
+
 	<h2 style="text-align:center">Gift Sponsors</h2>
 
 
@@ -162,15 +176,17 @@
 		 <div class="col-md-2"><a href="http://www.prestogifts.com/" target="_blank"><br>
         <img class="spons" src="img/spons/sponsors16/pics/Presto.jpg" width="190" height="80" />
 	    </a>
+
 	    </div>
 	     <div class="col-md-4">
+	    
 	    <a href="http://www.shiwacorp.net/" target="_blank">
-        <img class="spons"  src="img/spons/sponsors16/k.jpg" width="190" height="100" />
+        <img class="spons" style="position:relative;top:10px;" src="img/spons/sponsors16/k.jpg" width="190" height="100" />
 	    </a>
 	    	
 	    </div>
 	    <div class="col-md-2"><a href="http://www.fiamadiwills.com/"  target="_blank"><br><br>
-        <img class="spons"  src="img/spons/sponsors16/pics/f.jpg" width="240" height="90" />
+        <img class="spons" style="position:relative;top:-30px;"  src="img/spons/sponsors16/pics/f.jpg" width="240" height="90" />
 	    </a>
 	    </div>
 	</div><br><br/>
@@ -179,8 +195,8 @@
         <img class="spons"  src="img/spons/sponsors16/b.jpg" width="200" height="50" />
 	    </a>
 		</div>
-		 <div class="col-md-4"><a href="http://www.prestogifts.com/" target="_blank" ><br><br>
-        <img class="spons"  src="img/spons/sponsors16/pics/JustPro.jpg" width="190" height="80" />
+		 <div class="col-md-4"><a href="" target="_blank" ><br><br>
+        <img class="spons" style="position:relative;top:-20px;" src="img/spons/sponsors16/pics/JustPro.jpg" width="190" height="80" />
 	    </a>
 	    </div>
 	 	<div class="col-md-2"><a href="http://krishproducts.com/" target="_blank" >
@@ -240,10 +256,17 @@
 
 	</div>
 		<div class="row">
-		 <div class="col-md-4">  
+		 <div class="col-md-2">  
+	    </div>
+
+	     <div class="col-md-2"> 
+	     <p style="font-size:20px;">Confectionary Partner</p>
+	      <a href="" target="_blank">
+         <img class="spons"    src="img/spons/sponsors16/pics/a3.jpg" width="190" height="120" />
+      </a>
 	    </div>
 	    
-	     <div class="col-md-4">
+	     <div class="col-md-4">  <p style="font-size:20px;">Stationary Partner</p><br/>
       <a href="" target="_blank">
          <img class="spons" style="position:relative;top:0px;" src="img/spons/sponsors16/pics/p.jpg" width="190" height="70" />
       </a>
@@ -298,13 +321,14 @@
     	 <a href="http://www.faadooengineers.com/" target="_blank">
          <img class="spons"  src="img/spons/sponsors16/pics/fa.jpeg" width="190" height="80" />
       </a>
-
+      <br/><br/>    <br/>
     </div>
     <div class="col-md-4">
          
       <a href="http://www.hindustantimes.com" target="_blank">
          <img class="spons"  src="img/spons/sponsors16/pics/b.png" width="190" height="80" />
       </a>
+          <br/><br/>    <br/>
     </div>
 
    
@@ -316,12 +340,30 @@
     </div>
     </div>
 
+    <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-3"><br/>
+    	 <a href="http://fests.info/" target="_blank">
+         <img class="spons"  src="img/spons/sponsors16/pics/on1.png" width="190" height="80" />
+      </a>
+          <br/><br/> 
+
+
+    </div>
+    <div class="col-md-3">	
+    	 <a href="http://thecollegefever.com/" target="_blank">
+         <img class="spons"  src="img/spons/sponsors16/pics/on2.jpg" width="190" height="120" />
+      </a>
+          <br/><br/> 
+
+    </div>
+
 
 	
-	
+	</div>
 	<br><br><br><br>
    </div>
-   </div>
+   
 </body>
 
 </html>
