@@ -13,6 +13,7 @@ $arrSt=$_POST['arrSt'];
 $trainName=$_POST['trainName'];
 $trainNo=$_POST['trainNo'];
 $accNo=$_POST['accNo'];
+$secPhone=$_POST['secPhone'];
 $iscab=$_POST['iscab'];
 $cabWhere=$_POST['cabWhere'];
 $cabWhen=$_POST['cabWhen'];
@@ -43,7 +44,7 @@ $prefDep=$_POST['prefDep'];
 $prefHall=$_POST['prefHall'];
 
 $query1="INSERT INTO travel set email='$email', arrivaldate='$arrDate', arrivalstation='$arrSt', trainname='$trainName', trainno='$trainNo', accompanyno='$accNo', 
-cabreq='$iscab', cabfrom='$cabWhere', cabat='$cabWhen',arrivaltime='$arrTime' , cabdate='$cabDate' , arrivalcabpref='$acabPref' , departdate='$depDate' ,
+secondaryphone='$secPhone' , cabreq='$iscab', cabfrom='$cabWhere', cabat='$cabWhen',arrivaltime='$arrTime' , cabdate='$cabDate' , arrivalcabpref='$acabPref' , departdate='$depDate' ,
  departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref', cabpeople='$cabPpl' ";
 
 $result1=$connection->query($query1);
