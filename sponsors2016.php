@@ -42,7 +42,7 @@
 
 	</div><br/><br/>
 	<div class="row">
-	<h2 style="text-align:center">Co Sponsor</h2>
+	<h2 style="text-align:center">Co Sponsors</h2>
 		<div class="col-md-3"></div>
 		<div class="col-md-3"><a href="http://www.tata.com/" target="_blank" >
         <img class="spons"  src="img/spons/sponsors16/pics/ta.jpg" width="290" height="140" />
@@ -67,7 +67,7 @@
 	</div><br><br>
 
 	<div class="row" >
-		<h2 style="text-align:center;">Major Sponsors</h2>	
+		<h2 style="text-align:center;">Major Sponsor</h2>	
 			
 		    <div class=""><br><a href="http://www.acclimited.com/newsite/index.asp" target="_blank" >
 	        <img class="spons" src="img/spons/sponsors16/pics/ac.png" width="120" height="90" />
