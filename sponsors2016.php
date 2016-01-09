@@ -34,7 +34,7 @@
 		</div>	
 		<div class="col-md-2">
 		<div class=""><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
-	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/l33.jpg" width="230" height="130" />
+	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/lt.jpg" width="230" height="130" />
 		    	</a>
 		    </div>	
 		</div>	
