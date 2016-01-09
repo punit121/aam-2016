@@ -34,7 +34,7 @@
 		</div>	
 		<div class="col-md-2">
 		<div class=""><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
-	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/lt.JPG" width="230" height="130" />
+	        	<img class="spons" style="position:relative;top:-8px;" src="img/spons/sponsors16/pics/lt.JPG" width="200" height="130" />
 		    	</a>
 		    </div>	
 		</div>	
@@ -268,7 +268,7 @@
 	    
 	     <div class="col-md-4">  <p style="font-size:20px;">Stationary Partner</p><br/>
       <a href="" target="_blank">
-         <img class="spons" style="position:relative;top:0px;" src="img/spons/sponsors16/pics/p.jpg" width="190" height="70" />
+         <img class="spons" style="position:relative;top:20px;" src="img/spons/sponsors16/pics/p.jpg" width="190" height="50" />
       </a>
    	
     </div>
