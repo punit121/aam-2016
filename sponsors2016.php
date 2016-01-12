@@ -100,6 +100,31 @@
     <br>
 		
 	</div>
+	<h2>Broadcast Partner</h2><br>
+	<div class="row">
+		
+	<div class="col-md-3"></div>
+    <div class="col-md-3">
+    	 <a href="http://aajtak.intoday.in/" target="_blank">
+         <img class="spons"  src="img/spons/sponsors16/pics/aaj.JPE" width="190" height="130" />
+      </a>
+          <br/><br/> 
+
+
+    </div>
+    <div class="col-md-3">	
+    	 <a href="http://www.ddindia.gov.in/Pages/Home.aspx" target="_blank">
+         <img class="spons"  src="img/spons/sponsors16/pics/door.JPE" width="180" height="160" />
+      </a>
+          <br/><br/> 
+
+    </div>	
+
+
+	</div>
+
+
+
 		<h2 style="text-align:center;">Event Sponsors</h2>
 	<div class="row"><div class="col-md-2"></div>
 	
