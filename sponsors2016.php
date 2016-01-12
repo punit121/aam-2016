@@ -184,7 +184,7 @@
 	<div class="row">
 
 		 <div class=""><a href="https://www.sbi.co.in/" target="_blank" >
-        <img class="spons" style="position:relative;left:-10px;" src="img/spons/sponsors16/pics/sb.jpeg" width="250" height="90" />
+        <img class="spons" style="position:relative;left:-10px;" src="img/spons/sponsors16/pics/sb.jpeg" width="260" height="80" />
 	    </a>
 	    </div>
 
