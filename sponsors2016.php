@@ -272,7 +272,12 @@
       </a>
    	
     </div>
-	     <div class="col-md-4">
+	     <div class="col-md-2">
+	     	 <p style="position:relative;font-size:20px">Cashback Partner</p>
+	     	 <a href="http://www.gopaisa.com/" target="_blank"><br><br>
+        <img class="spons"  style="position:relative;top:-10px;" src="img/spons/sponsors16/pics/go.jpg" width="190" height="70" />
+	    </a>
+
 	    </div>
 	</div>
 
