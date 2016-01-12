@@ -264,16 +264,17 @@
 	      <a href="" target="_blank">
          <img class="spons"    src="img/spons/sponsors16/pics/a3.jpg" width="190" height="120" />
       </a>
+      <br/>
 	    </div>
 	    
 	     <div class="col-md-4">  <p style="font-size:20px;">Stationary Partner</p><br/>
       <a href="" target="_blank">
          <img class="spons" style="position:relative;top:20px;" src="img/spons/sponsors16/pics/p.jpg" width="190" height="50" />
       </a>
-   	
+   	<br/><br/><br/><br/>
     </div>
 	     <div class="col-md-2">
-	     	 <p style="position:relative;font-size:20px">Cashback Partner</p>
+	     	 <p style="position:relative;font-size:20px">Cashback Partner</p><br>
 	     	 <a href="http://www.gopaisa.com/" target="_blank"><br><br>
         <img class="spons"  style="position:relative;top:-10px;" src="img/spons/sponsors16/pics/go.jpg" width="190" height="70" />
 	    </a>
