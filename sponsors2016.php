@@ -106,7 +106,7 @@
 	<div class="col-md-3"></div>
     <div class="col-md-3">
     	 <a href="http://aajtak.intoday.in/" target="_blank">
-         <img class="spons"  src="img/spons/sponsors16/pics/aaj.JPG" width="190" height="130" />
+         <img class="spons"  src="img/spons/sponsors16/pics/aaj.jpg" width="190" height="130" />
       </a>
           <br/><br/> 
 
@@ -114,7 +114,7 @@
     </div>
     <div class="col-md-3">	
     	 <a href="http://www.ddindia.gov.in/Pages/Home.aspx" target="_blank">
-         <img class="spons"  src="img/spons/sponsors16/pics/doordarshan.JPG" width="180" height="160" />
+         <img class="spons"  src="img/spons/sponsors16/pics/doordarshan.jpg" width="180" height="160" />
       </a>
           <br/><br/> 
 
